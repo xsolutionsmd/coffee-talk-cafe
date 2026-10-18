@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T15:53:32.986604+00:00):
+Pipeline status (generated 2026-10-18T16:14:23.669158+00:00):
 
 - **identity**: done
 - **research**: done
@@ -11,8 +11,8 @@ Pipeline status (generated 2026-10-18T15:53:32.986604+00:00):
 - **content**: done
 - **reconstruct**: done
 - **backend**: done
-- **refine**: todo: record coordinator-accepted refine evidence
-- **build**: todo: blocked by refine
+- **refine**: done
+- **build**: todo: record verified build evidence
 - **first-publish**: todo: blocked by build
 - **first-live-slack**: todo: blocked by first-publish
 - **infra**: todo: blocked by first-publish
@@ -21,7 +21,7 @@ Pipeline status (generated 2026-10-18T15:53:32.986604+00:00):
 - **recheck**: todo: blocked by fixes
 - **deploy**: todo: blocked by recheck
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by refine, build, first-publish, first-live-slack, infra, review, fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by build, first-publish, first-live-slack, infra, review, fixes, recheck, deploy, delivery
 <!-- xs-status:end -->
 
 ## Current state
@@ -60,3 +60,11 @@ October18: full evidence inspected and accepted after renewing the content finge
 
 ## Backend accepted; refinement next
 October18: backend/integration accepted at 78a1970 (tested product e7ac361). ARM64 nginx passes21 HTTP cases and read-only/non-root checks; development image passes5 probes. Found/fixed extensionless directory redirects leaking internal port8080. Grubhub live identity/preorder/pickup verified again. Exact test containers and three image tags removed; builder/cache retained for immediate first release, localhost5188 for refinement. Claude Opus5.5 High receives existing populated source, accepted blueprint and checked API contract; only frontend/refinement evidence ownership transfers. No server release or Slack delivery yet.
+
+## Active refinement fallback
+October18: Claude Opus5.5High returned ?Claude API rate limit reached. Try again later.? before any edits. Coordinator cancelled, verified terminal failed with no pending runs, and revoked ownership. The same existing-source refinement/check scope now belongs exclusively to Astraxhigh child coffeetalk-refine-astra-r1 at Standard speed. Exact provider evidence and task ledger retained privately. No Claude work is claimed.
+
+Prepared initial production Compose (uncommitted coordinator-owned file) and scoped gateway lock/CAS helper; neither has run on Oracle. Isolated builder coffeetalk-build-20261018 was configured for default-load; restart it before final app check so the setting applies, then retain only through immediate release. All backend test containers/images removed. Media package prepared and archive checked:18originals plus provenance/menu JSON+CSV, 2426579bytes; delivery still pending. No remote repository, first-live URL or Slack send yet. Next: terminal fallback result/no pending runs, refinement acceptance, final readiness/production Compose rehearsal, first Oracle publish and immediate thread+Chrome Slack URL.
+
+## Refinement accepted; first release preparation
+October18: Astra fallback refinement accepted at947259d after actual source/browser evidence inspection. Improved primary actions and menu anchor/history/focus behavior; all96 items and six photos preserved. Child completed with no pending runs and ownership released. Coordinator adds deterministic canonical/social-image metadata for the reserved production hostname, retaining noindex on all demonstration environments. Final container/readiness checks and first Oracle release are next, followed immediately by URL/Slack and then Sol infrastructure.
