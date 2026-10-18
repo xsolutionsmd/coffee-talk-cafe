@@ -6,11 +6,13 @@ The coordinator accepted the completed normal workflow and its delivery at `926b
 
 The existing 46-image library was reinspected and expanded before implementation. Public provenance, confidence, reasoning, crop bounds and hashes are in [menu-photos.json](menu-photos.json). The 36 WebP files total 965,436 bytes. Original photos and provenance are retained privately; no generated food or competitor imagery is used. Historical breads, toppings and presentation can differ from today's preparations.
 
-Astra owns this scoped implementation. Local build/content checks pass, with all 96 exact IDs/names/descriptions/variants retained. Actual desktop 1440px and mobile 390px/320px browser inspection found no page/panel overflow; all 36 photos decoded, category headings remained visible, and the drawer's Escape/focus behavior passed. Independent live review and the scoped final delivery remain pending until publication is verified. The normal workflow evidence below remains historical; it is not acceptance of this photo variation.
+The reviewed product is `b064369c9477599f6fadcd13cbf7e764e28accfa`. Independent live review passed **45 cases with no findings**; the final scoped recheck passed **8 cases with no findings**, and the coordinator accepted build, review, unchanged fixes, recheck and deployment. All 96 exact IDs/names/descriptions/variants remain intact. Checks include actual native 390px/320px and 1440px desktop views, reduced motion, all 36 image identities/crops, image decoding and containing-card bounds, category entry/reload/history, and keyboard drawer focus/Escape. No further product change was needed. Browser emulation is not physical-device testing.
+
+The live Derek menu is https://d-coffeetalk.xsolutionsmd.com/menu/. Main and Abdul remain at `926bd25d0b1bbee6695d33bef5b1f1b2d34b5b2e`, each with 96 rows and zero item photos. Documentation-only release revisions are verified against the reviewed product's app, runtime, build and release configuration; exact final branch/runtime revisions, Actions and menu-byte evidence stay in the private scoped handoff receipt. Final delivery is returned to the coordinator for inspection and acceptance.
 
 ## Normal website checkpoint - October 18, 2026
 
-Workflow: server-first (default). The accepted normal product is revision `a56823b7c5a6d2d88901a880237b71fe706e8501`; production merge `b198efe0c131ad207d9e1f5fa7f5639874dadfc7` has the identical complete Git tree. This publication updates records only. Final branch-head, HTTPS/route, metadata, health/version and reviewed-source parity evidence is retained privately after the last documentation push. The coordinator accepts overall final delivery after inspecting that evidence.
+Workflow: server-first (default). The accepted normal product is revision `a56823b7c5a6d2d88901a880237b71fe706e8501`; production merge `b198efe0c131ad207d9e1f5fa7f5639874dadfc7` has the identical complete Git tree. Normal final delivery was accepted at `926bd25d0b1bbee6695d33bef5b1f1b2d34b5b2e`, before the separate Derek photo scope. Its final branch-head, HTTPS/route, metadata, health/version and reviewed-source parity evidence is retained privately as historical acceptance.
 
 | Environment | Branch | URL |
 |---|---|---|
@@ -36,7 +38,7 @@ The expanded library contains **46 unique authentic images**, with originals, ha
 
 The expanded package was delivered once and verified after reload and exact downloaded-byte hashing. The earlier 18-image delivery remains historical and was not resent. Library/source coverage remains partial, with all nine required source families carrying truthful results; see [media](media.md). The expanded library is preparation, not 36 photos currently rendered on the normal menu. The six site images remain unchanged.
 
-Main and Abdul retain the accepted text-only menu. Normal final delivery is accepted. The parent now owns the scoped Derek-only menu-photo variation described above. Do not merge that variation to main/Abdul or start another research/design cycle from this handoff.
+Main and Abdul retain the accepted text-only menu. Normal final delivery is accepted. Derek now renders the 36 reviewed crops described above; the unchanged delivered library contains the originals, not the new site crops. Do not merge this variation to main/Abdul or start another research/design cycle from this handoff.
 
 ## Facts, gaps and release boundaries
 
@@ -48,6 +50,6 @@ The full-build authorization covers these normal branch releases and scoped comp
 
 ## Ownership and retention
 
-The normal final Sol task is terminal, accepted and released. The coordinator owns the current scoped photo implementation and records until an explicit transfer to its independent review/final-delivery specialist.
+The normal final Sol task and scoped review/recheck writers are terminal, accepted and released. The final Sol specialist exclusively owns the scoped handoff records and delivery until returning its completed checkpoint; the coordinator then inspects, accepts and releases that task.
 
-No local application container or Vite server is required for this records-only handoff. The dedicated company builder/current cache and two owned local-test images are retained for the immediate parent-owned photo stage, with exact-identity cleanup due at that endpoint. Preserve unique originals, provenance, current package, acceptance/recovery evidence and unrelated VoiceVault/Budgie/tool homes. Never use a global prune.
+No local application container or Vite server is required for this records-only handoff. The dedicated company builder, its synthetic volume and two unused owned images were removed by exact identity, and the Vite listener was stopped. The ignored generated `app/dist` and `app/node_modules` were checked for active use and reparse points, then recycled with both recovery entries verified: 24,349,223 bytes recycled, zero disk space freed by recycling. Preserve source, unique originals, provenance, the current verified package and acceptance/recovery evidence for ongoing maintenance; recheck the package only if the library changes. Unrelated VoiceVault/Budgie/tool homes remain untouched. Oracle retention remains managed; no host cleanup or global prune was needed.
