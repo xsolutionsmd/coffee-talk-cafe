@@ -14,9 +14,9 @@ Local populated reconstruction on `derek-dev`, starting at `bf05485`. No deploym
 
 The first content-check iteration incorrectly counted `data-menu-id` attributes as duplicate HTML IDs; the checker was corrected to require a standalone `id` attribute. Browser testing found and fixed extensionless Vite routes, desktop menu-column spacing, native backward-tab escape and narrow enlarged-text overflow. Final checks apply to the corrected state.
 
-## Required limitation
+## Inspection method and limits
 
-Actual REA capture is missing. Automatic execution review rejected the documented task-owned helper launch before execution with `rejected: blocked by policy`, without a more specific reason. No workaround, guessed endpoint or personal profile was used. Native browser observations are explicitly separate from REA. This limitation prevents claiming the entire required reconstruction evidence gate passed.
+Derek's October 18 correction permits browser/devtools inspection when REA is unavailable. The completed reconstruction uses that fallback: actual native T3 desktop/mobile rendered reference views, DOM/accessibility inspection, bounding-box measurements, computed styles and visible interactions, followed by the populated local page/flow checks above. The blueprint records the exact REA limitation and evidence location; these browser observations are not called REA. No tooling repair, repeated rejected helper attempt or waiver is pending. The implementation and its evidence are ready for normal coordinator acceptance under the corrected policy.
 
 A combined image/content preparation command was also rejected before execution. The site uses unchanged compact originals copied independently; source-image processing did not run. Display crops are CSS only, and the full breakfast photo is preserved. Current selected JPEGs total under 1MB.
 
