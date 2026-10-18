@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "coffee-talk-cafe-derek-dev",
+  "project": "coffee-talk-cafe-derek-dev",
+  "source": "https://github.com/xsolutionsmd/coffee-talk-cafe",
+  "repositories": {
+    "image": "ghcr.io/xsolutionsmd/coffee-talk-cafe-derek-dev"
+  },
+  "state_dir": "/var/lib/coffee-talk-cafe-derek-dev-deploy",
+  "current": "current.json",
+  "recovery_files": [
+    "previous.env",
+    "previous-current.json"
+  ],
+  "pending_globs": [
+    "transaction",
+    "transaction.json",
+    "transaction.json.new",
+    "check.*",
+    "check-*"
+  ],
+  "keep_previous": 2,
+  "minimum_age_hours": 24
+}

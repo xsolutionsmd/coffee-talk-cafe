@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "repo": "xsolutionsmd/coffee-talk-cafe",
+  "slug": "coffee-talk-cafe",
+  "hostname": "coffeetalk.xsolutionsmd.com",
+  "port": 8080,
+  "image": "ghcr.io/xsolutionsmd/coffee-talk-cafe",
+  "mode": "stateless",
+  "architecture": "arm64",
+  "network": "xsolutions-proxy",
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "slug": "coffee-talk-cafe",
+      "hostname": "coffeetalk.xsolutionsmd.com",
+      "image": "ghcr.io/xsolutionsmd/coffee-talk-cafe"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "slug": "coffee-talk-cafe-derek-dev",
+      "hostname": "d-coffeetalk.xsolutionsmd.com",
+      "image": "ghcr.io/xsolutionsmd/coffee-talk-cafe-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "slug": "coffee-talk-cafe-abdul-dev",
+      "hostname": "a-coffeetalk.xsolutionsmd.com",
+      "image": "ghcr.io/xsolutionsmd/coffee-talk-cafe-abdul-dev"
+    }
+  ]
+}

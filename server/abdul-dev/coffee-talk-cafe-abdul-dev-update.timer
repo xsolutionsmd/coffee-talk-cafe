@@ -1,0 +1,11 @@
+[Unit]
+Description=Check coffee-talk-cafe-abdul-dev approved releases
+
+[Timer]
+OnBootSec=45s
+OnUnitInactiveSec=60s
+AccuracySec=5s
+Unit=coffee-talk-cafe-abdul-dev-update.service
+
+[Install]
+WantedBy=timers.target
