@@ -1,0 +1,5 @@
+a-coffeetalk.xsolutionsmd.com {
+    encode zstd gzip
+    header X-Robots-Tag "noindex, nofollow"
+    reverse_proxy coffee-talk-cafe-abdul-dev:8080
+}

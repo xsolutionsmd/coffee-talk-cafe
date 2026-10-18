@@ -1,0 +1,12 @@
+[Unit]
+Description=Apply and verify the published coffee-talk-cafe application
+Wants=network-online.target
+After=network-online.target docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/coffee-talk-cafe-update
+TimeoutStartSec=10min
+TimeoutStopSec=2min
+UMask=0077
