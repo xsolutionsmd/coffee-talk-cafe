@@ -42,22 +42,6 @@ if (drawer && trigger && close) {
 // Native hash links work without JavaScript; enhance focus and selected state.
 const categoryLinks = [...document.querySelectorAll('.category-nav a')];
 const lunchLinks = [...document.querySelectorAll('.lunch-nav a')];
-// Temporary, query-enabled diagnosis on Derek's preview; remove before merge.
-if (new URLSearchParams(location.search).has('anchor-debug')) {
-  const report = event => console.info('CT_ANCHOR_TRACE', JSON.stringify({
-    event, time: performance.now(), y: scrollY,
-    top: document.querySelector('#drinks-title')?.getBoundingClientRect().top,
-    focus: document.activeElement?.id, height: document.documentElement.scrollHeight,
-    restoration: history.scrollRestoration,
-  }));
-  report('module');
-  for (const event of ['DOMContentLoaded', 'load', 'pageshow', 'scroll', 'resize', 'focusin']) {
-    addEventListener(event, () => report(event), { passive: true });
-  }
-  addEventListener('pageshow', () => {
-    for (const delay of [0, 50, 150, 500]) setTimeout(() => report(`after-${delay}`), delay);
-  });
-}
 function hashTarget() {
   try { return document.getElementById(decodeURIComponent(location.hash.slice(1))); }
   catch { return null; }
@@ -89,27 +73,7 @@ function restoreCategory() {
   });
 }
 addEventListener('hashchange', restoreCategory);
-// A full document load may finish native fragment restoration after pageshow.
-// Let its first layout/scroll pass complete before aligning the visible heading.
-addEventListener('pageshow', () => {
-  restoreCategory();
-  const grid = document.querySelector('.menu-grid');
-  if (!grid || !hashTarget()?.closest('.menu-panel')) return;
-  // Native fragment scrolling can precede the final responsive text layout.
-  // Keep the initial heading anchored through layout changes, then yield as soon
-  // as the visitor interacts so ordinary scrolling is never pulled back.
-  const observer = new ResizeObserver(restoreCategory);
-  const stop = () => {
-    observer.disconnect();
-    for (const event of ['pointerdown', 'wheel', 'touchstart', 'keydown', 'pagehide']) {
-      removeEventListener(event, stop, true);
-    }
-  };
-  observer.observe(grid);
-  for (const event of ['pointerdown', 'wheel', 'touchstart', 'keydown', 'pagehide']) {
-    addEventListener(event, stop, { capture: true, passive: true });
-  }
-});
+addEventListener('pageshow', restoreCategory);
 for (const link of [...categoryLinks, ...lunchLinks]) {
   link.addEventListener('click', event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
