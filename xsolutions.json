@@ -140,7 +140,26 @@
       "status": "pending"
     },
     "build": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T16:17:20.880971+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "refine": "2026-10-18T16:14:23.253743+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Final app.py check passed on ebb9e08: container test/runtime/source-label/health/revision; exact ARM64 production Compose rehearsal passed21 HTTP/resource/menu/404 cases, user101/read-only/tmpfs/no-new-privileges. Reference-based desktop/mobile/interactions accepted; focused metadata/noindex/names/image checks pass. private/runs/first-publish/compose-runtime-check.json; asset source/media identities preserved."
+      ],
+      "revision": "ebb9e0856f570ea902cbe8e5d237a46c816f2713",
+      "inputs_sha256": {
+        "kb/features.md": "e8eab8f25bea5e85c4c93180ea2474a3cff01b9d8e3f51017a089586dbfc8be7",
+        "kb/design-brief.md": "0291299a64f60a084e5e072e3cc309bda0beaa2e3e1d4a3447a43dbcfb0e7cc7"
+      },
+      "content_recorded": "2026-10-18T15:48:31.669021+00:00"
     },
     "first-publish": {
       "status": "pending"
@@ -170,5 +189,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T15:10:57.394277+00:00"
+  "updated": "2026-10-18T16:17:20.899445+00:00"
 }
