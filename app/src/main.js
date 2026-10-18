@@ -42,6 +42,22 @@ if (drawer && trigger && close) {
 // Native hash links work without JavaScript; enhance focus and selected state.
 const categoryLinks = [...document.querySelectorAll('.category-nav a')];
 const lunchLinks = [...document.querySelectorAll('.lunch-nav a')];
+// Temporary, query-enabled diagnosis on Derek's preview; remove before merge.
+if (new URLSearchParams(location.search).has('anchor-debug')) {
+  const report = event => console.info('CT_ANCHOR_TRACE', JSON.stringify({
+    event, time: performance.now(), y: scrollY,
+    top: document.querySelector('#drinks-title')?.getBoundingClientRect().top,
+    focus: document.activeElement?.id, height: document.documentElement.scrollHeight,
+    restoration: history.scrollRestoration,
+  }));
+  report('module');
+  for (const event of ['DOMContentLoaded', 'load', 'pageshow', 'scroll', 'resize', 'focusin']) {
+    addEventListener(event, () => report(event), { passive: true });
+  }
+  addEventListener('pageshow', () => {
+    for (const delay of [0, 50, 150, 500]) setTimeout(() => report(`after-${delay}`), delay);
+  });
+}
 function hashTarget() {
   try { return document.getElementById(decodeURIComponent(location.hash.slice(1))); }
   catch { return null; }
