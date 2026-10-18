@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T16:24:21.324001+00:00):
+Pipeline status (generated 2026-10-18T16:26:19.381602+00:00):
 
 - **identity**: done
 - **research**: done
@@ -14,14 +14,14 @@ Pipeline status (generated 2026-10-18T16:24:21.324001+00:00):
 - **refine**: done
 - **build**: done
 - **first-publish**: done
-- **first-live-slack**: todo: record coordinator-accepted first-live-slack evidence
+- **first-live-slack**: done
 - **infra**: todo: record verified infra evidence
 - **review**: todo: blocked by infra
 - **fixes**: todo: blocked by review
 - **recheck**: todo: blocked by fixes
 - **deploy**: todo: blocked by recheck
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by first-live-slack, infra, review, fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by infra, review, fixes, recheck, deploy, delivery
 <!-- xs-status:end -->
 
 ## Current checkpoint ? October 18, 2026
@@ -44,7 +44,7 @@ Final readiness at `ebb9e08` passed app.py check and exact ARM64 production Comp
 
 Coordinator alone owns pipeline acceptance and state/HANDOFF until explicit final Sol transfer. Prior research, reconstruction and refinement specialists are terminal without pending runs and their paths are released. The next specialist is Sol 6.1 xhigh, Standard speed, for repository/branches/Actions/protections and independent previews, preserving the first-live service. No parallel implementation or redesign is authorized.
 
-First-live Slack and maintained URL-directory readback are being completed. The directory's current writer is serialized separately; do not edit a stale copy or duplicate announcements. Infrastructure evidence returns to the coordinator before independent Sol High live review, Astra fixes/republication, fresh Sol recheck and Sol High final verification/media/Slack handoff.
+First-live Slack and the maintained URL-directory entry are saved and independently verified after reload. The private receipt records both persisted results; reuse it without duplicate announcements. Directory edits are serialized across companies; never save a stale copy. Infrastructure evidence returns to the coordinator before independent Sol High live review, Astra fixes/republication, fresh Sol recheck and Sol High final verification/media/Slack handoff.
 
 ## Boundaries and cleanup
 
