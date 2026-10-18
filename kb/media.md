@@ -50,7 +50,14 @@ The full library is in the private company folder (`private/assets/originals/`, 
 
 ## Used on the website
 
-None selected yet.
+| Site file | Type | Source page | Rights |
+|---|---|---|---|
+| app/public/images/cafe-counter.jpg | image | https://restaurantguru.com/Coffee-Talk-Cafe-Towson/menu | public-unverified |
+| app/public/images/sandwich.jpg | image | https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=Eq1FsfokQa_w3Vw9B92iIg | business-official |
+| app/public/images/hummus-wrap.jpg | image | https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=8wH_Q8mZQr9rrNUe-QTe5Q | business-official |
+| app/public/images/storefront.jpg | image | https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=ECidzvb1QMRrRbhMz7iKqQ | public-unverified |
+| app/public/images/breakfast.jpg | image | https://www.instagram.com/coffeetalktowson/p/DeMLci5xk2M/ | business-official |
+| app/public/images/coffee.jpg | image | https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=iwVx5jSnOKWe3GlZO4Wl9g | public-unverified |
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.

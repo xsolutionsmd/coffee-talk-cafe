@@ -1,0 +1,724 @@
+[
+  {
+    "id": "big-bird",
+    "name": "Big Bird",
+    "category": "Chicken sandwiches",
+    "description": "Grilled chicken, provolone, lettuce, tomato and mayonnaise on a Kaiser roll.",
+    "variants": []
+  },
+  {
+    "id": "oriole-bird",
+    "name": "Oriole Bird",
+    "category": "Chicken sandwiches",
+    "description": "Grilled chicken, roasted red peppers, provolone, lettuce, chipotle pesto and mayonnaise on ciabatta.",
+    "variants": []
+  },
+  {
+    "id": "emily",
+    "name": "Emily",
+    "category": "Chicken sandwiches",
+    "description": "Grilled chicken, onions, cheddar, lettuce, tomato, bacon and ranch on ciabatta.",
+    "variants": []
+  },
+  {
+    "id": "chicken-pesto",
+    "name": "Chicken Pesto",
+    "category": "Chicken sandwiches",
+    "description": "Grilled chicken, mozzarella, lettuce and basil pesto on a Kaiser roll.",
+    "variants": []
+  },
+  {
+    "id": "chicken-cordon-bleu",
+    "name": "Chicken Cordon Bleu",
+    "category": "Chicken sandwiches",
+    "description": "Grilled chicken and ham with Swiss cheese and honey mustard on a Kaiser roll.",
+    "variants": []
+  },
+  {
+    "id": "ravenette",
+    "name": "Ravenette",
+    "category": "Turkey sandwiches",
+    "description": "Turkey, roasted red peppers, onions, cheddar, bacon and honey mustard on ciabatta.",
+    "variants": []
+  },
+  {
+    "id": "white-russian",
+    "name": "White Russian",
+    "category": "Turkey sandwiches",
+    "description": "Turkey, Swiss cheese, coleslaw and Russian dressing on a Kaiser roll.",
+    "variants": []
+  },
+  {
+    "id": "turkey-reuben",
+    "name": "Turkey Reuben",
+    "category": "Turkey sandwiches",
+    "description": "Turkey, sauerkraut, Swiss cheese and Russian dressing on rye.",
+    "variants": []
+  },
+  {
+    "id": "turkey-powerhouse",
+    "name": "Turkey Powerhouse",
+    "category": "Turkey sandwiches",
+    "description": "Turkey, Muenster, lettuce, carrots, cucumbers, onions, tomato and honey mustard on multigrain.",
+    "variants": []
+  },
+  {
+    "id": "turkey-melt",
+    "name": "Turkey Melt",
+    "category": "Turkey sandwiches",
+    "description": "Turkey, cheddar, bacon and chipotle pesto on multigrain.",
+    "variants": []
+  },
+  {
+    "id": "chesapeake-turkey-club",
+    "name": "Chesapeake Turkey Club",
+    "category": "Turkey sandwiches",
+    "description": "Turkey, American cheese, lettuce, tomatoes, bacon and Chesapeake sauce on three slices of multigrain.",
+    "variants": []
+  },
+  {
+    "id": "raven",
+    "name": "Raven",
+    "category": "Beef sandwiches",
+    "description": "Roast beef, roasted red peppers, onions, cheddar, tomato and horseradish sauce on a Kaiser roll.",
+    "variants": []
+  },
+  {
+    "id": "reuben",
+    "name": "Reuben",
+    "category": "Beef sandwiches",
+    "description": "Corned beef, sauerkraut, Swiss cheese and Russian dressing on rye.",
+    "variants": []
+  },
+  {
+    "id": "mr-beef",
+    "name": "Mr. Beef",
+    "category": "Beef sandwiches",
+    "description": "Roast beef, cheddar, banana peppers, tomato and deli mustard on a Kaiser roll.",
+    "variants": []
+  },
+  {
+    "id": "rachel",
+    "name": "Rachel",
+    "category": "Beef sandwiches",
+    "description": "Corned beef, Swiss cheese, coleslaw and Russian dressing on rye.",
+    "variants": []
+  },
+  {
+    "id": "classic-club",
+    "name": "Classic Club",
+    "category": "Other sandwiches",
+    "description": "Choice of turkey, ham, tuna salad or chicken salad with bacon, lettuce, tomato and mayonnaise on choice of bread.",
+    "variants": []
+  },
+  {
+    "id": "italian-cold-cut",
+    "name": "Italian Cold Cut",
+    "category": "Other sandwiches",
+    "description": "Ham, salami, pepperoni, provolone, lettuce, tomato, onions, hot peppers, mayonnaise, oil and vinegar on a sub roll.",
+    "variants": []
+  },
+  {
+    "id": "big-ham",
+    "name": "Big Ham",
+    "category": "Other sandwiches",
+    "description": "Ham, provolone, bacon, lettuce, tomato and honey mustard on rye.",
+    "variants": []
+  },
+  {
+    "id": "tuna-melt",
+    "name": "Tuna Melt",
+    "category": "Other sandwiches",
+    "description": "Tuna salad, provolone, tomatoes and bacon on multigrain.",
+    "variants": []
+  },
+  {
+    "id": "st-pete",
+    "name": "St. Pete",
+    "category": "Other sandwiches",
+    "description": "Tuna salad, lettuce, carrots and cucumber on multigrain.",
+    "variants": []
+  },
+  {
+    "id": "blt",
+    "name": "BLT",
+    "category": "Other sandwiches",
+    "description": "Bacon, lettuce, tomato and mayonnaise on choice of bread.",
+    "variants": []
+  },
+  {
+    "id": "house-made-egg-salad",
+    "name": "House-made Egg Salad",
+    "category": "Other sandwiches",
+    "description": "Egg salad, lettuce and tomatoes on choice of bread.",
+    "variants": []
+  },
+  {
+    "id": "greek-wrap",
+    "name": "Greek Wrap",
+    "category": "Wraps",
+    "description": "Chicken, feta, lettuce, tomatoes, olives, onions and Greek dressing.",
+    "variants": [
+      "Regular white wrap",
+      "Whole wheat wrap",
+      "Spinach wrap"
+    ]
+  },
+  {
+    "id": "california-wrap",
+    "name": "California Wrap",
+    "category": "Wraps",
+    "description": "Turkey, lettuce, tomatoes, carrots, bacon, avocado spread and mayonnaise.",
+    "variants": [
+      "Regular white wrap",
+      "Whole wheat wrap",
+      "Spinach wrap"
+    ]
+  },
+  {
+    "id": "chicken-caesar-wrap",
+    "name": "Chicken Caesar Wrap",
+    "category": "Wraps",
+    "description": "Chicken, four-cheese blend, lettuce, croutons, bacon and Caesar dressing.",
+    "variants": [
+      "Regular white wrap",
+      "Whole wheat wrap",
+      "Spinach wrap"
+    ]
+  },
+  {
+    "id": "italian-roll-up",
+    "name": "Italian Roll-Up",
+    "category": "Wraps",
+    "description": "Ham, salami, pepperoni, provolone, lettuce, tomatoes, onions, hot peppers, mayonnaise, oil and vinegar.",
+    "variants": [
+      "Regular white wrap",
+      "Whole wheat wrap",
+      "Spinach wrap"
+    ]
+  },
+  {
+    "id": "turkey-hummus-wrap",
+    "name": "Turkey Hummus Wrap",
+    "category": "Wraps",
+    "description": "Turkey, hummus, lettuce, tomatoes, carrots, cucumber, onions and roasted peppers.",
+    "variants": [
+      "Regular white wrap",
+      "Whole wheat wrap",
+      "Spinach wrap"
+    ]
+  },
+  {
+    "id": "chicken-salad-wrap",
+    "name": "Chicken Salad Wrap",
+    "category": "Wraps",
+    "description": "Plain, curried or chipotle chicken salad with lettuce and tomato.",
+    "variants": [
+      "Regular white wrap",
+      "Whole wheat wrap",
+      "Spinach wrap"
+    ]
+  },
+  {
+    "id": "tuna-salad-wrap",
+    "name": "Tuna Salad Wrap",
+    "category": "Wraps",
+    "description": "Tuna salad with lettuce and tomato.",
+    "variants": [
+      "Regular white wrap",
+      "Whole wheat wrap",
+      "Spinach wrap"
+    ]
+  },
+  {
+    "id": "powerhouse",
+    "name": "Powerhouse",
+    "category": "Veggie sandwiches and wraps",
+    "description": "Lettuce, tomato, cucumber, carrots, onions, Muenster and honey mustard on multigrain.",
+    "variants": []
+  },
+  {
+    "id": "savannah",
+    "name": "Savannah",
+    "category": "Veggie sandwiches and wraps",
+    "description": "Lettuce, tomato, carrots, onions, hummus, chipotle pesto and avocado spread on multigrain.",
+    "variants": []
+  },
+  {
+    "id": "hummus-wrap",
+    "name": "Hummus Wrap",
+    "category": "Veggie sandwiches and wraps",
+    "description": "Hummus, lettuce, tomato, onion, cucumber, carrots and roasted red peppers in choice of wrap.",
+    "variants": []
+  },
+  {
+    "id": "isle-of-capri",
+    "name": "Isle of Capri",
+    "category": "Veggie sandwiches and wraps",
+    "description": "Tomato, mozzarella, balsamic vinaigrette and basil pesto on ciabatta.",
+    "variants": []
+  },
+  {
+    "id": "grilled-margherita",
+    "name": "Grilled Margherita",
+    "category": "Veggie sandwiches and wraps",
+    "description": "Tomato, mozzarella, black pepper and basil pesto on multigrain.",
+    "variants": []
+  },
+  {
+    "id": "ultimate-veggie-wrap",
+    "name": "Ultimate Veggie Wrap",
+    "category": "Veggie sandwiches and wraps",
+    "description": "Lettuce, tomato, cucumber, carrot, onion, roasted red pepper, avocado spread, hummus, chipotle pesto and cheddar.",
+    "variants": []
+  },
+  {
+    "id": "peanut-butter-and-jelly",
+    "name": "Peanut Butter and Jelly",
+    "category": "Quick bites",
+    "description": "Peanut butter and jelly sandwich.",
+    "variants": []
+  },
+  {
+    "id": "cheese-quesadilla",
+    "name": "Cheese Quesadilla",
+    "category": "Quick bites",
+    "description": "Cheese quesadilla.",
+    "variants": []
+  },
+  {
+    "id": "chicken-quesadilla",
+    "name": "Chicken Quesadilla",
+    "category": "Quick bites",
+    "description": "Chicken quesadilla.",
+    "variants": []
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "category": "Quick bites",
+    "description": "Hot dog in a bun.",
+    "variants": []
+  },
+  {
+    "id": "chili-dog",
+    "name": "Chili Dog",
+    "category": "Quick bites",
+    "description": "With onions and cheddar.",
+    "variants": []
+  },
+  {
+    "id": "grilled-cheese",
+    "name": "Grilled Cheese",
+    "category": "Quick bites",
+    "description": "Grilled cheese sandwich.",
+    "variants": []
+  },
+  {
+    "id": "ultimate-grilled-cheese",
+    "name": "Ultimate Grilled Cheese",
+    "category": "Quick bites",
+    "description": "Grilled cheese with bacon and tomatoes.",
+    "variants": []
+  },
+  {
+    "id": "chef-salad",
+    "name": "Chef Salad",
+    "category": "Salads",
+    "description": "Lettuce, cheddar, carrots, cucumber, ham and turkey.",
+    "variants": []
+  },
+  {
+    "id": "garden-salad",
+    "name": "Garden Salad",
+    "category": "Salads",
+    "description": "Lettuce, tomato, cucumber, onion, roasted peppers and carrots.",
+    "variants": []
+  },
+  {
+    "id": "caesar-salad",
+    "name": "Caesar Salad",
+    "category": "Salads",
+    "description": "Lettuce, four-cheese blend and croutons with Caesar dressing.",
+    "variants": []
+  },
+  {
+    "id": "greek-salad",
+    "name": "Greek Salad",
+    "category": "Salads",
+    "description": "Lettuce, feta, tomato, cucumber, onion and black olives with Greek dressing.",
+    "variants": []
+  },
+  {
+    "id": "cobb-salad",
+    "name": "Cobb Salad",
+    "category": "Salads",
+    "description": "Lettuce, cheddar, tomato, carrots, chicken, bacon and hard-boiled egg.",
+    "variants": []
+  },
+  {
+    "id": "salad-boat",
+    "name": "Salad Boat",
+    "category": "Salads",
+    "description": "House-made tuna or chicken salad with tomatoes on lettuce.",
+    "variants": []
+  },
+  {
+    "id": "half-salad",
+    "name": "Half Salad",
+    "category": "Salads",
+    "description": "Half portion of Garden, Caesar or Greek salad.",
+    "variants": []
+  },
+  {
+    "id": "maryland-crab-soup",
+    "name": "Maryland Crab Soup",
+    "category": "Soups",
+    "description": "",
+    "variants": [
+      "Sizes available"
+    ]
+  },
+  {
+    "id": "texas-chili",
+    "name": "Texas Chili",
+    "category": "Soups",
+    "description": "",
+    "variants": [
+      "Sizes available"
+    ]
+  },
+  {
+    "id": "lunchbox-special",
+    "name": "Lunchbox Special",
+    "category": "Lunch options",
+    "description": "Any sandwich, one side, UTZ chips, a can of soda or bottled water, and a cookie or brownie.",
+    "variants": []
+  },
+  {
+    "id": "create-your-own-sandwich",
+    "name": "Create Your Own Sandwich",
+    "category": "Lunch options",
+    "description": "Choose meat, bread, a slice of cheese, vegetables and dressing.",
+    "variants": []
+  },
+  {
+    "id": "sausage-egg-and-cheese",
+    "name": "Sausage, Egg and Cheese",
+    "category": "Breakfast",
+    "description": "Sausage, egg and cheese breakfast sandwich.",
+    "variants": []
+  },
+  {
+    "id": "ham-egg-and-cheese",
+    "name": "Ham, Egg and Cheese",
+    "category": "Breakfast",
+    "description": "Ham, egg and cheese breakfast sandwich.",
+    "variants": []
+  },
+  {
+    "id": "bacon-egg-and-cheese",
+    "name": "Bacon, Egg and Cheese",
+    "category": "Breakfast",
+    "description": "Bacon, egg and cheese breakfast sandwich.",
+    "variants": [
+      "Croissant, confirmed in official October 7 post; ask for other bread choices"
+    ]
+  },
+  {
+    "id": "turkey-egg-and-cheese",
+    "name": "Turkey, Egg and Cheese",
+    "category": "Breakfast",
+    "description": "Turkey, egg and cheese breakfast sandwich.",
+    "variants": []
+  },
+  {
+    "id": "egg-and-cheese",
+    "name": "Egg and Cheese",
+    "category": "Breakfast",
+    "description": "Egg and cheese breakfast sandwich.",
+    "variants": []
+  },
+  {
+    "id": "bagel",
+    "name": "Bagel",
+    "category": "Breakfast",
+    "description": "Ask for current bagel choices.",
+    "variants": []
+  },
+  {
+    "id": "croissant",
+    "name": "Croissant",
+    "category": "Breakfast",
+    "description": "Croissant.",
+    "variants": []
+  },
+  {
+    "id": "toast",
+    "name": "Toast",
+    "category": "Breakfast",
+    "description": "Toast with choice of listed topping.",
+    "variants": [
+      "Butter",
+      "Cream cheese",
+      "Peanut butter",
+      "Cheese and vegetables",
+      "Peanut butter and jelly",
+      "Avocado spread"
+    ]
+  },
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": [
+      "Single shot",
+      "Double shot"
+    ]
+  },
+  {
+    "id": "drip-coffee",
+    "name": "Drip Coffee",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "tea",
+    "name": "Tea",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "red-eye",
+    "name": "Red Eye",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "black-eye",
+    "name": "Black Eye",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "green-eye",
+    "name": "Green Eye",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "cafe-latte",
+    "name": "Cafe Latte",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "cafe-mocha",
+    "name": "Cafe Mocha",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": [
+      "White or dark chocolate"
+    ]
+  },
+  {
+    "id": "caramel-mocha",
+    "name": "Caramel Mocha",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "zebra-mocha",
+    "name": "Zebra Mocha",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "lavender-london-fog-tea",
+    "name": "Lavender London Fog Tea",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "chai-latte",
+    "name": "Chai Latte",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "dirty-chai-latte",
+    "name": "Dirty Chai Latte",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "hot-chocolate",
+    "name": "Hot Chocolate",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "hot-milk",
+    "name": "Hot Milk",
+    "category": "Hot coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "house-cold-brew-coffee",
+    "name": "House Cold Brew Coffee",
+    "category": "Cold coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "iced-cafe-latte",
+    "name": "Iced Cafe Latte",
+    "category": "Cold coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "iced-cafe-mocha",
+    "name": "Iced Cafe Mocha",
+    "category": "Cold coffee and drinks",
+    "description": "",
+    "variants": [
+      "White or dark chocolate"
+    ]
+  },
+  {
+    "id": "iced-caramel-mocha",
+    "name": "Iced Caramel Mocha",
+    "category": "Cold coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "ice-blended-mocha",
+    "name": "Ice Blended Mocha",
+    "category": "Cold coffee and drinks",
+    "description": "",
+    "variants": [
+      "White or dark chocolate"
+    ]
+  },
+  {
+    "id": "ice-blended-caramel-mocha",
+    "name": "Ice Blended Caramel Mocha",
+    "category": "Cold coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "unsweetened-iced-tea",
+    "name": "Unsweetened Iced Tea",
+    "category": "Cold coffee and drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "can-soda",
+    "name": "Can Soda",
+    "category": "Other drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "sparkling-drink",
+    "name": "Sparkling Drink",
+    "category": "Other drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "kombucha",
+    "name": "Kombucha",
+    "category": "Other drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "bottled-soda",
+    "name": "Bottled Soda",
+    "category": "Other drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "bottled-juice",
+    "name": "Bottled Juice",
+    "category": "Other drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "bottled-tea",
+    "name": "Bottled Tea",
+    "category": "Other drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "bottled-water",
+    "name": "Bottled Water",
+    "category": "Other drinks",
+    "description": "",
+    "variants": []
+  },
+  {
+    "id": "taharka-ice-cream",
+    "name": "Taharka Ice Cream",
+    "category": "Ice cream",
+    "description": "Locally made Taharka ice cream; ask for current flavors.",
+    "variants": []
+  },
+  {
+    "id": "milkshake",
+    "name": "Milkshake",
+    "category": "Ice cream",
+    "description": "Made with ice cream; ask for current flavors.",
+    "variants": []
+  },
+  {
+    "id": "soda-float",
+    "name": "Soda Float",
+    "category": "Ice cream",
+    "description": "Ice cream soda float.",
+    "variants": []
+  },
+  {
+    "id": "milkshake-affogato",
+    "name": "Milkshake Affogato",
+    "category": "Ice cream",
+    "description": "Milkshake with espresso.",
+    "variants": []
+  }
+]
