@@ -109,7 +109,7 @@ dialog nav [aria-current=page] { text-decoration:underline; text-decoration-colo
 .category-nav a:hover,.category-nav a[aria-current=location] { background:var(--navy); color:var(--cream) }
 .menu-note { font-size:13px; margin-bottom:45px }
 .menu-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:20px; align-items:start }
-.menu-panel { background:var(--panel); padding:60px 50px; min-width:0 }
+.menu-panel { background:var(--panel); padding:60px 50px; min-width:0; container-type:inline-size }
 .breakfast-menu { grid-area:1/1 }
 .lunch-menu { grid-area:auto }
 .menu-side>.menu-panel+.menu-panel { margin-top:20px }
@@ -127,6 +127,13 @@ dialog nav [aria-current=page] { text-decoration:underline; text-decoration-colo
 .menu-list :is(h3,h4) { font-family:var(--sans); font-size:14px; line-height:1.45; font-weight:700; letter-spacing:.07em; text-transform:uppercase }
 .menu-list p { font-size:13px; line-height:1.55; margin-top:7px }
 .menu-list .variants { font-size:12px; color:#40566a }
+.menu-list .has-menu-photo { display:grid; grid-template-columns:minmax(0,1fr) 144px; align-items:start; gap:20px }
+.menu-item-copy { min-width:0 }
+.menu-item-photo { display:block; width:144px; height:auto; max-height:190px; object-fit:contain; object-position:left top }
+@container(max-width:350px) {
+  .menu-list .has-menu-photo { grid-template-columns:minmax(0,1fr); gap:13px }
+  .menu-item-photo { width:160px; max-width:100%; max-height:205px }
+}
 .lunch-nav { display:flex; flex-wrap:wrap; justify-content:center; gap:7px 13px; margin:22px 0 38px }
 .lunch-nav a { font-size:11px; line-height:1.5; text-decoration-color:var(--tan); padding:4px 0 }
 .lunch-nav a[aria-current=location] { font-weight:700; text-decoration-thickness:2px }

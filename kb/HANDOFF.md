@@ -1,5 +1,13 @@
 # Coffee Talk Cafe handoff
 
+## Derek menu-photo variation - October 18, 2026
+
+The coordinator accepted the completed normal workflow and its delivery at `926bd25d0b1bbee6695d33bef5b1f1b2d34b5b2e`. Production and Abdul remain on that text-menu version. This `derek-dev` branch intentionally adds **36 authentic item photos across 96 menu entries**: 19 confirmed associations and 17 confident visual/contextual inferences. Two uncertain candidates (Big Ham and Cobb Salad) remain unillustrated; 58 entries have no supported photo. Preserve this branch difference during future synchronization; do not merge it to main or Abdul without a separate request.
+
+The existing 46-image library was reinspected and expanded before implementation. Public provenance, confidence, reasoning, crop bounds and hashes are in [menu-photos.json](menu-photos.json). The 36 WebP files total 965,436 bytes. Original photos and provenance are retained privately; no generated food or competitor imagery is used. Historical breads, toppings and presentation can differ from today's preparations.
+
+Astra owns this scoped implementation. Local build/content checks pass, with all 96 exact IDs/names/descriptions/variants retained. Actual desktop 1440px and mobile 390px/320px browser inspection found no page/panel overflow; all 36 photos decoded, category headings remained visible, and the drawer's Escape/focus behavior passed. Independent live review and the scoped final delivery remain pending until publication is verified. The normal workflow evidence below remains historical; it is not acceptance of this photo variation.
+
 ## Normal website checkpoint - October 18, 2026
 
 Workflow: server-first (default). The accepted normal product is revision `a56823b7c5a6d2d88901a880237b71fe706e8501`; production merge `b198efe0c131ad207d9e1f5fa7f5639874dadfc7` has the identical complete Git tree. This publication updates records only. Final branch-head, HTTPS/route, metadata, health/version and reviewed-source parity evidence is retained privately after the last documentation push. The coordinator accepts overall final delivery after inspecting that evidence.
@@ -28,7 +36,7 @@ The expanded library contains **46 unique authentic images**, with originals, ha
 
 The expanded package was delivered once and verified after reload and exact downloaded-byte hashing. The earlier 18-image delivery remains historical and was not resent. Library/source coverage remains partial, with all nine required source families carrying truthful results; see [media](media.md). The expanded library is preparation, not 36 photos currently rendered on the normal menu. The six site images remain unchanged.
 
-Main and Abdul retain the accepted text-only menu. **Next milestone, only after coordinator acceptance of normal final delivery:** the parent implements the separately reviewed menu-photo variation on Derek's branch/environment only. Do not merge that variation to main/Abdul or start another research/design cycle from this handoff.
+Main and Abdul retain the accepted text-only menu. Normal final delivery is accepted. The parent now owns the scoped Derek-only menu-photo variation described above. Do not merge that variation to main/Abdul or start another research/design cycle from this handoff.
 
 ## Facts, gaps and release boundaries
 
@@ -40,6 +48,6 @@ The full-build authorization covers these normal branch releases and scoped comp
 
 ## Ownership and retention
 
-Final Sol owns only the explicitly transferred public handoff/media/state/instruction files and private delivery/deploy/task/evidence records. Prior writers are terminal/released. The coordinator alone accepts overall final-handoff after the completed checkpoint and releases ownership; implementation of the later Derek-only variation remains with the parent.
+The normal final Sol task is terminal, accepted and released. The coordinator owns the current scoped photo implementation and records until an explicit transfer to its independent review/final-delivery specialist.
 
 No local application container or Vite server is required for this records-only handoff. The dedicated company builder/current cache and two owned local-test images are retained for the immediate parent-owned photo stage, with exact-identity cleanup due at that endpoint. Preserve unique originals, provenance, current package, acceptance/recovery evidence and unrelated VoiceVault/Budgie/tool homes. Never use a global prune.

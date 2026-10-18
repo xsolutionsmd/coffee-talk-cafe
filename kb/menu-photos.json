@@ -1,0 +1,772 @@
+{
+  "environment": "derek-dev only",
+  "scope": "Authentic historical preparations; reasonable visual/contextual inferences remain likely, not confirmed. Main/Abdul retain text-only menus.",
+  "menu_entries": 96,
+  "displayed_photos": 36,
+  "confirmed": 19,
+  "likely": 17,
+  "uncertain_omitted": [
+    "big-ham",
+    "cobb-salad"
+  ],
+  "missing": 58,
+  "items": [
+    {
+      "item_id": "oriole-bird",
+      "confidence": "confirmed",
+      "source_sha256": "ef00531ccb27e0e1f69a4b3eb77aa1db68b92cba4dcd7667922ff1863383dcb9",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=Eq1FsfokQa_w3Vw9B92iIg"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        0,
+        0,
+        1000,
+        800
+      ],
+      "output_sha256": "05a7af4c705506689727b9dd5ba3b39ef233457be3fbed9a497912649f278422",
+      "bytes": 17020,
+      "src": "/images/menu/oriole-bird.webp",
+      "width": 480,
+      "height": 384,
+      "alt": "Oriole Bird chicken sandwich on a white plate"
+    },
+    {
+      "item_id": "emily",
+      "confidence": "likely",
+      "source_sha256": "417bdfda4b5140921e7bfb9bc7384bf9414e3f635060c5a890e9f9266bbc9715",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=60&select=4lQtVE0CU72bpim92Uwn6w"
+      ],
+      "identification_evidence": "Thick white grilled-chicken breast, melted cheddar, red onion, tomato and lettuce on ciabatta fit Emily. Turkey Ravenette has sliced turkey and roasted peppers; breast texture and tomato favor Emily. Bacon/ranch are not fully visible and cannot be confirmed. 2016 photo.",
+      "crop_bounds": [
+        0,
+        100,
+        1000,
+        750
+      ],
+      "output_sha256": "c4b0fba1c28f6dfbed42494847794dff692d00c8dd301f93819b82e1ddd1ca7a",
+      "bytes": 24830,
+      "src": "/images/menu/emily.webp",
+      "width": 480,
+      "height": 312,
+      "alt": "A grilled chicken sandwich with cheddar, red onion, tomato and greens on ciabatta"
+    },
+    {
+      "item_id": "turkey-reuben",
+      "confidence": "likely",
+      "source_sha256": "bcc1f0f3645cdee35b1e35b27ba655a089745b728d813b6e2c9104e093df2431",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=60&select=44yPqLp0zimcW4mwkZYbNw"
+      ],
+      "identification_evidence": "Pale sliced poultry, melted pale cheese, shredded cabbage/sauerkraut and pink dressing on toasted sliced bread support Turkey Reuben. Corned-beef Reuben/Rachel would have darker meat; White Russian specifies a Kaiser roll. Historical 2016 recipe not confirmed by a caption.",
+      "crop_bounds": [
+        20,
+        70,
+        730,
+        850
+      ],
+      "output_sha256": "75736b83e53e4e1cdaee701acefef9d49eda09d8abd7951fe0b3fab10ce2dec0",
+      "bytes": 48246,
+      "src": "/images/menu/turkey-reuben.webp",
+      "width": 437,
+      "height": 480,
+      "alt": "A toasted poultry sandwich with melted cheese and sauerkraut"
+    },
+    {
+      "item_id": "turkey-powerhouse",
+      "confidence": "confirmed",
+      "source_sha256": "3b5697ff4e2593d55bb5d672588ca2179006279cd5fd80eb07173463b0802481",
+      "source_urls": [
+        "https://www.facebook.com/photo.php?fbid=677107327797081&set=pb.100064934584332.-2207520000&type=3"
+      ],
+      "identification_evidence": "Official August 2, 2023 caption explicitly names Turkey Power House. Visible turkey, cheese, shredded carrots, cucumber, onion, tomato, lettuce and multigrain agree. Stronger labeled image than the newly inspected customer alternative.",
+      "crop_bounds": [
+        0,
+        140,
+        1189,
+        820
+      ],
+      "output_sha256": "53aa071f87e068b421dd7ee546f8742572d3937f3054dec711dcb47576f34989",
+      "bytes": 24964,
+      "src": "/images/menu/turkey-powerhouse.webp",
+      "width": 480,
+      "height": 275,
+      "alt": "Turkey Powerhouse sandwich with vegetables on multigrain"
+    },
+    {
+      "item_id": "raven",
+      "confidence": "confirmed",
+      "source_sha256": "56d7df0cabe25b429cf98d4db3f76193a9676ba7a3cc96a36d33634dfc6f2b69",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=vyTHNuQ6ct-ezM4dhrXI1g"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        0,
+        0,
+        1000,
+        800
+      ],
+      "output_sha256": "d9a1e84808c9f5302a6913225e78742121a859fb4f5e0fce6d482f2419db44d4",
+      "bytes": 16504,
+      "src": "/images/menu/raven.webp",
+      "width": 480,
+      "height": 384,
+      "alt": "Raven roast beef sandwich"
+    },
+    {
+      "item_id": "reuben",
+      "confidence": "confirmed",
+      "source_sha256": "787c4f20eda117dc05a2a3f878aa74e5932f9cd4fb678af5d657837d809bbddd",
+      "source_urls": [
+        "https://www.facebook.com/photo.php?fbid=680298837477930&set=pb.100064934584332.-2207520000&type=3"
+      ],
+      "identification_evidence": "Official August 8, 2023 caption explicitly identifies Reuben; corned beef, melted Swiss and sauerkraut visible. Replaces the prior selected 2021 takeaway image with a clearer owner photo. Toasted bread/portion can differ from today.",
+      "crop_bounds": [
+        0,
+        0,
+        2048,
+        1382
+      ],
+      "output_sha256": "eeda096bd1dfaa30b03043fdb0eb1b076bdf4615b0277468d53a8c11bb519a8e",
+      "bytes": 17312,
+      "src": "/images/menu/reuben.webp",
+      "width": 480,
+      "height": 324,
+      "alt": "Reuben with corned beef, melted Swiss and sauerkraut on toasted bread"
+    },
+    {
+      "item_id": "mr-beef",
+      "confidence": "likely",
+      "source_sha256": "8abbc4d8258423ee6ec4f934dd6649916d9628be03b1615633bf134c1ce32ec1",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=30&select=Mlbudb6H0IHPUIfkXmn8kw"
+      ],
+      "identification_evidence": "Customer caption identifies roast beef; visible beef, cheddar, tomato and yellow mustard on a roll favor Mr. Beef over Raven, which uses horseradish. Banana peppers are not clearly visible; Yelp keyword Mr. Beef is secondary evidence only, not an exact customer label.",
+      "crop_bounds": [
+        0,
+        0,
+        750,
+        850
+      ],
+      "output_sha256": "a7425d8ca88fb0167b9c02de7ddd06314ef0e9ab3a2e0f88d554b60368418325",
+      "bytes": 36750,
+      "src": "/images/menu/mr-beef.webp",
+      "width": 424,
+      "height": 480,
+      "alt": "A roast beef sandwich with cheddar, tomato and mustard"
+    },
+    {
+      "item_id": "classic-club",
+      "confidence": "likely",
+      "source_sha256": "ce77ad761f2f480a29e3e6f99ddbb0b09c202782d75d20eec2ac78aebfdd1036",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=60&select=RWWrlfJH4wMeoS51yoRFhA"
+      ],
+      "identification_evidence": "Three slices of white toast, sliced turkey, bacon, lettuce and tomato form a club sandwich. Classic Club permits turkey and bread choice. Chesapeake Turkey Club specifies multigrain and Chesapeake sauce, which this photo does not establish. Extra pale cheese is a historical variation.",
+      "crop_bounds": [
+        0,
+        0,
+        1000,
+        750
+      ],
+      "output_sha256": "e0f117671476f17e93375c473e25217ee703a88bef0283c88dfa519b1a7574fb",
+      "bytes": 26218,
+      "src": "/images/menu/classic-club.webp",
+      "width": 480,
+      "height": 360,
+      "alt": "A three-layer turkey, bacon, lettuce and tomato club sandwich"
+    },
+    {
+      "item_id": "italian-cold-cut",
+      "confidence": "confirmed",
+      "source_sha256": "19694ffebde700066f01cac1bd61e79370ea58f951b59f5037dbdbe9121d3331",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=30&select=ZpTCFsA0_4AXYwGM7nn6wA"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        5,
+        220,
+        530,
+        650
+      ],
+      "output_sha256": "a3f39d70f9ecfdb4e68d666cd0867b7782ec00787b35e963e335cd1ae11894bb",
+      "bytes": 23930,
+      "src": "/images/menu/italian-cold-cut.webp",
+      "width": 480,
+      "height": 393,
+      "alt": "Italian Cold Cut sandwich"
+    },
+    {
+      "item_id": "st-pete",
+      "confidence": "likely",
+      "source_sha256": "f463caeba941b780effed245a7787bb64b04d8abcc808bcdee6ceefccc9b1f2c",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=60&select=iFym0f12jPVvO90I8dPkqg"
+      ],
+      "identification_evidence": "Owner calls it TUNA SANDWICH. Visible tuna salad, cucumber, lettuce and seeded multigrain align with St. Pete. No melted cheese or bacon, unlike Tuna Melt. Carrots are not clearly resolved; 2016 topping differences possible.",
+      "crop_bounds": [
+        0,
+        0,
+        960,
+        720
+      ],
+      "output_sha256": "fb7ac16ec504e90a661eea1fc9fd8848d3c26738d2ff947823e3c31769fce42d",
+      "bytes": 40554,
+      "src": "/images/menu/st-pete.webp",
+      "width": 480,
+      "height": 360,
+      "alt": "A tuna salad sandwich with cucumber and lettuce on multigrain bread"
+    },
+    {
+      "item_id": "house-made-egg-salad",
+      "confidence": "confirmed",
+      "source_sha256": "3e75aa355a725642b29bae0ad606681b3d2a244cd5c339f3573dc77aa5e42d6d",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=30&select=k0iUb5wJfirf1GLNMYORlg"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        50,
+        180,
+        950,
+        562
+      ],
+      "output_sha256": "fec0dc6999b5501d7991ecb262d437d14d33f7085fb8d2f3f3626c1c415fcf8d",
+      "bytes": 18460,
+      "src": "/images/menu/house-made-egg-salad.webp",
+      "width": 480,
+      "height": 204,
+      "alt": "Egg salad sandwich"
+    },
+    {
+      "item_id": "greek-wrap",
+      "confidence": "confirmed",
+      "source_sha256": "a63d72942a7a1dfc6bd92ad6816195f4de32a872cebe130939b0682a69ba466b",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=30&select=38sjZo9MYz1uiDrMN4sDEA"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        0,
+        0,
+        1000,
+        750
+      ],
+      "output_sha256": "82d50376511f0b880709721dce1e220160c8f70b37f418bade78e30deb5c76a5",
+      "bytes": 35396,
+      "src": "/images/menu/greek-wrap.webp",
+      "width": 480,
+      "height": 360,
+      "alt": "Greek Wrap"
+    },
+    {
+      "item_id": "chicken-salad-wrap",
+      "confidence": "confirmed",
+      "source_sha256": "014d6a3df3ba085a164d9cd6ccc0dd81ca2068f679fc8c0b8d7a594554ce3852",
+      "source_urls": [
+        "https://www.facebook.com/photo.php?fbid=681364364038044&set=pb.100064934584332.-2207520000&type=3"
+      ],
+      "identification_evidence": "Official caption says house made chicken salad wrap with lettuce and tomatoes; chunky chicken, lettuce and tomato visible. 2023 plain-style preparation, not evidence for curried/chipotle variants.",
+      "crop_bounds": [
+        0,
+        0,
+        1469,
+        922
+      ],
+      "output_sha256": "a9f1f9f1a39d55fce872520d5cc0fbd157869c2cf4ab4145de45d36f29ccc04a",
+      "bytes": 20380,
+      "src": "/images/menu/chicken-salad-wrap.webp",
+      "width": 480,
+      "height": 301,
+      "alt": "House-made chicken salad wrap halves with lettuce and tomato"
+    },
+    {
+      "item_id": "tuna-salad-wrap",
+      "confidence": "likely",
+      "source_sha256": "cf5c95ff75c9d810ca6757b6fa8d17579f6e84512bebe453185fbf1181ae1d4c",
+      "source_urls": [
+        "https://www.facebook.com/photo.php?fbid=683439783830502&set=pb.100064934584332.-2207520000&type=3"
+      ],
+      "identification_evidence": "Official caption identifies a Spicy Tuna Salad Wrap special. Visible tuna salad, lettuce and tomato directly fit Tuna Salad Wrap; spice/celery/onion are a historical flavor variation, not a promise the current standard is spicy.",
+      "crop_bounds": [
+        0,
+        0,
+        745,
+        758
+      ],
+      "output_sha256": "f96a2ac85b1e24cb74ebf12660f9b19a90be93f83b4145e0b570c0b5d8db1041",
+      "bytes": 41252,
+      "src": "/images/menu/tuna-salad-wrap.webp",
+      "width": 472,
+      "height": 480,
+      "alt": "Spicy tuna salad wrap halves with lettuce and tomato"
+    },
+    {
+      "item_id": "powerhouse",
+      "confidence": "confirmed",
+      "source_sha256": "c891a273cb44600bdf2add60b640efc3d6b117245806689a29f751f744178054",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=0ONK2Fnaf50_6zBzGikdFQ"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        0,
+        0,
+        1000,
+        800
+      ],
+      "output_sha256": "d65b698101c605e902438e28875480d7f49a38f4075f1ac566b4ac7b0e24d8a7",
+      "bytes": 20104,
+      "src": "/images/menu/powerhouse.webp",
+      "width": 480,
+      "height": 384,
+      "alt": "Powerhouse vegetable and cheese sandwich"
+    },
+    {
+      "item_id": "hummus-wrap",
+      "confidence": "confirmed",
+      "source_sha256": "417ce2123f745d48f86b7c7194897ad9d580958d7fcd605bf6783d8713b81346",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=8wH_Q8mZQr9rrNUe-QTe5Q"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        0,
+        0,
+        1000,
+        800
+      ],
+      "output_sha256": "ea45f62de02d4cc119884a6b0d79322898988fff27503973577f28c5727df01c",
+      "bytes": 17242,
+      "src": "/images/menu/hummus-wrap.webp",
+      "width": 480,
+      "height": 384,
+      "alt": "Hummus Wrap halves with vegetables on a plate"
+    },
+    {
+      "item_id": "chicken-quesadilla",
+      "confidence": "confirmed",
+      "source_sha256": "df7267525d858cc33149155f79bb6f5672cf5108cfb3819e00554877bbd2be2c",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=60&select=zYWkfFzf0J5ImOcGsL9V8g"
+      ],
+      "identification_evidence": "Owner caption CHICKEN QUESADILLA; grilled tortilla, diced chicken, cheese, tomato and red onion visible. Historical 2016 preparation.",
+      "crop_bounds": [
+        0,
+        0,
+        640,
+        480
+      ],
+      "output_sha256": "f8ccae6579bf69601a53dad9faee722cb1a1b624e105d1c920e3807b179a2cee",
+      "bytes": 29292,
+      "src": "/images/menu/chicken-quesadilla.webp",
+      "width": 480,
+      "height": 360,
+      "alt": "Chicken quesadilla with grilled chicken, cheese, tomato and onion"
+    },
+    {
+      "item_id": "grilled-cheese",
+      "confidence": "confirmed",
+      "source_sha256": "7df2ecdd708e150345dcf86fc3c00891b94be9c4288112ba5c9d8bde5ff56366",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=s2CsOODwKwooHSohN8U8QA"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        0,
+        0,
+        960,
+        720
+      ],
+      "output_sha256": "b3f51b18a03d7c3acd609ba05f07691207b49ad574d144d1f28b0832ffae2fba",
+      "bytes": 28224,
+      "src": "/images/menu/grilled-cheese.webp",
+      "width": 480,
+      "height": 360,
+      "alt": "Grilled cheese sandwich with potato chips"
+    },
+    {
+      "item_id": "chef-salad",
+      "confidence": "confirmed",
+      "source_sha256": "e2fff0bce14c3c802ad562a50c50aad3c0ff0f2b7582212bcfd4fb885636e1cb",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?select=JyMc5fUtCJyRDfsWXMVjHA"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        0,
+        0,
+        550,
+        440
+      ],
+      "output_sha256": "5f39a3828f0700c60beacfd93126433f55b4b6fe89844e56e3a545da13287d69",
+      "bytes": 22404,
+      "src": "/images/menu/chef-salad.webp",
+      "width": 480,
+      "height": 384,
+      "alt": "Chef Salad with ham, turkey, cheese and vegetables"
+    },
+    {
+      "item_id": "salad-boat",
+      "confidence": "likely",
+      "source_sha256": "bcc87ae6880d3eadee1e0db7d04c4ac61c1207cfd79ffe7c87981901ea0fd662",
+      "source_urls": [
+        "https://www.facebook.com/photo.php?fbid=660720749435739&set=pb.100064934584332.-2207520000&type=3"
+      ],
+      "identification_evidence": "Official caption Garden Salad with a scoop of Tuna; clearly visible central tuna-salad scoop on lettuce with tomatoes fits the Salad Boat tuna option. Photo includes extra cucumber, carrots and cheese; historical expanded salad variant, not exact current portion/plating.",
+      "crop_bounds": [
+        0,
+        0,
+        1790,
+        1512
+      ],
+      "output_sha256": "36183e21eac4de90f5bf1787316f47f22f94fefdfce96f3ae03e8b916441392b",
+      "bytes": 48354,
+      "src": "/images/menu/salad-boat.webp",
+      "width": 480,
+      "height": 405,
+      "alt": "A scoop of tuna salad with lettuce, tomatoes and other vegetables"
+    },
+    {
+      "item_id": "texas-chili",
+      "confidence": "likely",
+      "source_sha256": "556ce994e25e26cb687407f78043dc060e10dc4d696ef7a6655064d0f8d3e150",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=30&select=n9vGU31-AvQjT4Ck7woKgQ"
+      ],
+      "identification_evidence": "Customer explicitly calls this chili; full-size original shows thick reddish-brown meat/chili with crackers. Texas Chili is the verified current chili entry. A reasonable historical menu association, without claiming identical 2017 recipe.",
+      "crop_bounds": [
+        280,
+        270,
+        750,
+        740
+      ],
+      "output_sha256": "a5fed299e397a8f83f0b054f43048816a3be679d752501dfff7afb44ed913eb9",
+      "bytes": 67724,
+      "src": "/images/menu/texas-chili.webp",
+      "width": 470,
+      "height": 470,
+      "alt": "A cup of chili photographed at Coffee Talk Cafe"
+    },
+    {
+      "item_id": "lunchbox-special",
+      "confidence": "likely",
+      "source_sha256": "524c15f6a001e5c4043ce352f182a1306a1740962a313f07f88920fa9f13dbfc",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=30&select=E0spoZmssiEP9VFZG8DAcg"
+      ],
+      "identification_evidence": "Customer caption names sandwich, potato salad, chips, dessert and drink; all are visible together. This matches Lunchbox Special composition. Historical 2017 drink is in a foam cup, whereas the current record specifies soda can or bottled water; keep that difference explicit and do not reuse old price.",
+      "crop_bounds": [
+        0,
+        0,
+        1000,
+        562
+      ],
+      "output_sha256": "d9f336b1e36d5c220603388dd2dea523e13578fe6b7a58d7b1ba967a43565984",
+      "bytes": 20962,
+      "src": "/images/menu/lunchbox-special.webp",
+      "width": 480,
+      "height": 270,
+      "alt": "A photographed sandwich lunch with chips, potato salad, dessert and a drink"
+    },
+    {
+      "item_id": "create-your-own-sandwich",
+      "confidence": "confirmed",
+      "source_sha256": "bd048b961e72560a2be491f623be6cb8d67b1245e7ce382aa89b4d948ba196a1",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=60&select=u5EF4uhSz7eiBqBd7VqodQ"
+      ],
+      "identification_evidence": "The attached customer review explicitly says create your own grilled chicken sandwich. Photo shows grilled chicken, bacon, lettuce, tomato and cheese on a roll. This is an example configuration, not a fixed recipe.",
+      "crop_bounds": [
+        0,
+        0,
+        1000,
+        750
+      ],
+      "output_sha256": "f2719b4c5957655b9167bdf73f2875d636f32ebb2383cfff4c5de654e8273be0",
+      "bytes": 30948,
+      "src": "/images/menu/create-your-own-sandwich.webp",
+      "width": 480,
+      "height": 360,
+      "alt": "A custom grilled chicken sandwich with bacon, lettuce, tomato and cheese"
+    },
+    {
+      "item_id": "sausage-egg-and-cheese",
+      "confidence": "likely",
+      "source_sha256": "e5e68a7bf7acef7dd45f78917695dd05247373af82a3cd8a3bd76021a5d631dd",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=30&select=bglXuzHLwFSQSa0mBRFp8A"
+      ],
+      "identification_evidence": "Customer caption Breakfast burrito; photo clearly shows sausage patty, cooked egg and orange cheese. Supports Sausage, Egg and Cheese ingredients in a historical tortilla/burrito bread variant with tomato. It does not prove current wrap availability; use alt text identifying the pictured variant.",
+      "crop_bounds": [
+        0,
+        0,
+        750,
+        1000
+      ],
+      "output_sha256": "898b462e80445af931ccac2d559f92074ffc31d719c8619a86f1c025fa60521e",
+      "bytes": 29352,
+      "src": "/images/menu/sausage-egg-and-cheese.webp",
+      "width": 360,
+      "height": 480,
+      "alt": "Sausage, egg and cheese in a photographed breakfast wrap variation with tomato"
+    },
+    {
+      "item_id": "bacon-egg-and-cheese",
+      "confidence": "confirmed",
+      "source_sha256": "aef28c12ec7f2d130d0cddb79e3bc49d1ae5614f650998a3397e02539bac9d87",
+      "source_urls": [
+        "https://www.instagram.com/coffeetalktowson/p/DeMLci5xk2M/"
+      ],
+      "identification_evidence": "Exact owner or source caption matches this item. Visual contents inspected; historical preparation may differ.",
+      "crop_bounds": [
+        0,
+        0,
+        1440,
+        959
+      ],
+      "output_sha256": "96c85d0ae648ee47e920971766cbb68d6dd550e6ab61bb29d6c06d7876ea3bcf",
+      "bytes": 26784,
+      "src": "/images/menu/bacon-egg-and-cheese.webp",
+      "width": 480,
+      "height": 320,
+      "alt": "Bacon egg and cheese croissant sandwich"
+    },
+    {
+      "item_id": "cappuccino",
+      "confidence": "confirmed",
+      "source_sha256": "0a4aef302fc6a10bda2bd6a5d8fbc1d15e86126c55a0d0c3e6d170c41d08ef37",
+      "source_urls": [
+        "https://www.google.com/maps/place/Coffee+Talk+Cafe/@39.400774,-76.6037892,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhCVNke6IESkW9aEUdjYdgLQ!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgrass-cs%2FAABkmLeBe4-7EG8o_jQ4rjF_uaaeGI7s2oj3-GHpM9eadb9P5Gc-A__V1hOQiPDuLoOLzL-f8Uy_q1N5JJbZCi2NhYhXpFX7dYADzkfYVTfO_KfQpkVnt0Ny3g9xzRGX53u-ykLPe5nraWKh5ujK%3Dk-no!7i3024!8i4032!4m6!3m5!1s0x89c80fafa8f8d71f:0xca568f51dceadc1d!8m2!3d39.400774!4d-76.6037892!16s%2Fg%2F11bz_2fjkw?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D"
+      ],
+      "identification_evidence": "Customer photo title Medium cappuccino; Daniel Park review and owner response also name cappuccino. Photo dated February 2026 with visible 02.25.26 art. Collected from Maps page media URL, not Places API.",
+      "crop_bounds": [
+        0,
+        75,
+        384,
+        450
+      ],
+      "output_sha256": "4ee9276c684fb7440386586ee26d2819359d0f69bf2bf5a9981fe7a73d07f69c",
+      "bytes": 29232,
+      "src": "/images/menu/cappuccino.webp",
+      "width": 384,
+      "height": 375,
+      "alt": "Medium cappuccino with milk foam and date artwork"
+    },
+    {
+      "item_id": "cafe-latte",
+      "confidence": "likely",
+      "source_sha256": "31780beab89b2fcb95756a9f132fff123f52370f1191adce7c4bcc9d212a3f61",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=60&select=NU-Qv-KyTX9lcp5RzJqaGw"
+      ],
+      "identification_evidence": "Hot tan espresso-and-milk drink with a smooth integrated milk surface and poured heart art fits Cafe Latte. Caption only says Just amazing; unflavored status is not proven and a flavored latte remains possible.",
+      "crop_bounds": [
+        0,
+        220,
+        750,
+        940
+      ],
+      "output_sha256": "03e173660d68a93aa33b02b38e6aa90a04b1c5a575ae4d306fb734b704fb5aa6",
+      "bytes": 26038,
+      "src": "/images/menu/cafe-latte.webp",
+      "width": 480,
+      "height": 461,
+      "alt": "A hot espresso and milk drink with heart-shaped latte art"
+    },
+    {
+      "item_id": "cafe-mocha",
+      "confidence": "likely",
+      "source_sha256": "de175586fc96b28ccabea5ccba6b9a73e91cbc9e4dfdde9653ea7e09a502e586",
+      "source_urls": [
+        "https://www.google.com/maps/place/Coffee+Talk+Cafe/@39.400774,-76.6037892,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDxlOqAFg!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgrass-cs%2FAABkmLdiatkV5zsbD8egQ0RTjmYDvq_Vbz3oHIrnYk9ejYNhkEkIa8kzBzWps8DihEADdW0qXy26D_cDg1gWidlGm787N27zkhBTGQYvP4Q9LcoCfMbq1wvekofvQjaJ1ehOeg7Y2sjA%3Dw640-h640-n-k-no!7i3000!8i4000!4m7!3m6!1s0x89c80fafa8f8d71f:0xca568f51dceadc1d!8m2!3d39.400774!4d-76.6037892!10e9!16s%2Fg%2F11bz_2fjkw?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D"
+      ],
+      "identification_evidence": "Reached via the verified Maps Menu & highlights button Mocha. Photo shows a hot tan foamed drink with cocoa/chocolate art; title itself is Coffee Talk Cafe. The platform category supplies context; flavor/base is not independently confirmed by author. Latte remains an alternative.",
+      "crop_bounds": [
+        20,
+        10,
+        540,
+        510
+      ],
+      "output_sha256": "6b04929233bcbc54a153bcbb8836240af19aa2567ebe8ca50b3540677ce5a471",
+      "bytes": 24612,
+      "src": "/images/menu/cafe-mocha.webp",
+      "width": 480,
+      "height": 462,
+      "alt": "A hot foamed coffee drink with chocolate artwork at Coffee Talk Cafe"
+    },
+    {
+      "item_id": "chai-latte",
+      "confidence": "likely",
+      "source_sha256": "cf2f1d5ec509ce3f05fb4e49a528f9437a8e2998998332332bacb4014972354f",
+      "source_urls": [
+        "https://www.google.com/maps/place/Coffee+Talk+Cafe/@39.400774,-76.6037892,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhDwHP9nqLjZuYfVvy4nasSF!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgrass-cs%2FAABkmLcM8h6evK_40U69LRcbXBjWdW3M6yBUOjenpY-AK0KbjJ_xziNQuxPpMynAUjzxoTn_6Pxj89ZP-orvny8cRnosVYA2wypqJH_sN8cnLstHa3MhawrldeyuDmBJRm2zbDxpcX9rz3oJS-Cy%3Dk-no!7i4284!8i5712!4m6!3m5!1s0x89c80fafa8f8d71f:0xca568f51dceadc1d!8m2!3d39.400774!4d-76.6037892!16s%2Fg%2F11bz_2fjkw?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D"
+      ],
+      "identification_evidence": "Associated Foodie and goodie review specifically recommends hot milk masala chai; owner response also mentions Masala Chai. The single drink photo has pale foamed milk with spice decoration. Image title says Latte with cinnamon flower art; contextual identification as Chai Latte is strong but not a direct photo label.",
+      "crop_bounds": [
+        35,
+        110,
+        350,
+        445
+      ],
+      "output_sha256": "e691038b547566e46e25cec3c9908892f7bd3f509091419146a578d0f55d6fd9",
+      "bytes": 22252,
+      "src": "/images/menu/chai-latte.webp",
+      "width": 315,
+      "height": 335,
+      "alt": "A hot milk chai with spice artwork at Coffee Talk Cafe"
+    },
+    {
+      "item_id": "house-cold-brew-coffee",
+      "confidence": "likely",
+      "source_sha256": "6a5251a3aef79d5ca834ce586dc8a17c9f89ca49d53d8dfa7902026149372fee",
+      "source_urls": [
+        "https://www.instagram.com/coffeetalktowson/p/DbVXbH6xkKx/"
+      ],
+      "identification_evidence": "Official July 28, 2026 caption identifies Toffee Cloud Cold Brew with English toffee, white chocolate and half-and-half. Underlying cold-brew identity confirmed; mapping to House Cold Brew is a flavored/cream variation, not black coffee or a permanent named special.",
+      "crop_bounds": [
+        190,
+        350,
+        1300,
+        1780
+      ],
+      "output_sha256": "f0ec483d44e8fab583bb9b1b3d7e39fb950b877aab2b9c9d8c214b3ab3e5ea0f",
+      "bytes": 14746,
+      "src": "/images/menu/house-cold-brew-coffee.webp",
+      "width": 373,
+      "height": 480,
+      "alt": "A flavored cold-brew variation with cream and ice at Coffee Talk Cafe"
+    },
+    {
+      "item_id": "iced-cafe-latte",
+      "confidence": "confirmed",
+      "source_sha256": "c6044bb86bb457082515bf65340fbb5de5ad5a18f81f48c56854776b0072b340",
+      "source_urls": [
+        "https://www.instagram.com/coffeetalktowson/p/DcyAt9CRmVo/",
+        "https://www.instagram.com/coffeetalktowson/p/Da2ab2Tx_3_/"
+      ],
+      "identification_evidence": "Same photograph appears in official July 16, 2026 post explicitly advertising handcrafted flavored iced lattes. September 2 caption only says Beat the Heat; the earlier exact-image context resolves the initial mocha inference. Flavor is unspecified.",
+      "crop_bounds": [
+        120,
+        650,
+        1380,
+        1920
+      ],
+      "output_sha256": "39fcd06606381dc25ea3c9f5c8b22e432f33f5b74f7b3ba5da99c5e23cbfb0c4",
+      "bytes": 18648,
+      "src": "/images/menu/iced-cafe-latte.webp",
+      "width": 476,
+      "height": 480,
+      "alt": "Flavored iced cafe latte with Beat the Heat chocolate artwork"
+    },
+    {
+      "item_id": "iced-cafe-mocha",
+      "confidence": "confirmed",
+      "source_sha256": "69f8571b54eac754549c95ddbd3455dcbc3ea3114ded80ac28eb51e329f57bd0",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=60&select=yH5j_z0Zd8mBMw36KuJizg"
+      ],
+      "identification_evidence": "Customer caption white chocolate mocha and visible ice in clear cup establish the white-chocolate variant of Iced Cafe Mocha. 2022 photo.",
+      "crop_bounds": [
+        0,
+        0,
+        750,
+        1000
+      ],
+      "output_sha256": "6bccec6b42bf61868a73580b2ac339c1425c751289cddae72c789d2353179ce1",
+      "bytes": 14240,
+      "src": "/images/menu/iced-cafe-mocha.webp",
+      "width": 360,
+      "height": 480,
+      "alt": "Iced white chocolate mocha in a clear cup"
+    },
+    {
+      "item_id": "ice-blended-caramel-mocha",
+      "confidence": "likely",
+      "source_sha256": "292aba5dddd33c26d4100dbe29ee90e830863c3eed8a9bb5c46e14f225f9a814",
+      "source_urls": [
+        "https://www.facebook.com/photo.php?fbid=680848227422991&set=pb.100064934584332.-2207520000&type=3"
+      ],
+      "identification_evidence": "Official August 9, 2023 post calls this a barista creation not on the menu then. Expanded owner comment explicitly identifies blended coffee, two espresso shots, dark chocolate, caramel sauce and milk. Those ingredients and frozen texture fit a historical Ice Blended Caramel Mocha variation. Whipped topping/beans are not a current promise.",
+      "crop_bounds": [
+        0,
+        0,
+        1500,
+        2048
+      ],
+      "output_sha256": "db04cfc21054502f53bfcf1915ba01fb135eaee4af0d19e2b9e08368731fde84",
+      "bytes": 20718,
+      "src": "/images/menu/ice-blended-caramel-mocha.webp",
+      "width": 352,
+      "height": 480,
+      "alt": "Blended espresso, dark chocolate and caramel drink with milk, whipped topping and coffee beans"
+    },
+    {
+      "item_id": "kombucha",
+      "confidence": "confirmed",
+      "source_sha256": "91e22d48cb58eaa32a93690bd659bcffd2cd4f95ade156b4dc046af1fef810a5",
+      "source_urls": [
+        "https://www.instagram.com/coffeetalktowson/p/Dc0nLvlRTcB/"
+      ],
+      "identification_evidence": "Official September 3, 2026 caption names kombucha; visible Wild Bay labels explicitly say Kombucha. Three flavors shown, without promising current flavor availability.",
+      "crop_bounds": [
+        0,
+        310,
+        1440,
+        1850
+      ],
+      "output_sha256": "e96e89ee5b8a18f95beb2b385addc6b96c61f8e6fe8891f1c4d2582c10168deb",
+      "bytes": 23120,
+      "src": "/images/menu/kombucha.webp",
+      "width": 449,
+      "height": 480,
+      "alt": "Wild Bay kombucha bottles at the Coffee Talk counter"
+    },
+    {
+      "item_id": "taharka-ice-cream",
+      "confidence": "likely",
+      "source_sha256": "937465097252d860b6852a9dbc98a36d64cb3da1302012002af4cc2839d406be",
+      "source_urls": [
+        "https://www.facebook.com/photo.php?fbid=669250221916125&set=pb.100064934584332.-2207520000&type=3"
+      ],
+      "identification_evidence": "Official photo explicitly promotes ice cream; visible wafer cone with large cookies-and-cream-style scoop. Comment identifies Taharka brothers, consistent with the cafe supplier evidence. Brand/flavor are not confirmed by the owner caption; do not promise this flavor. New food occupies a much larger crop than old 2016 child photo.",
+      "crop_bounds": [
+        425,
+        585,
+        835,
+        1080
+      ],
+      "output_sha256": "74e5c145867f3adabab1331f6115c67e7011ba4c11737b70bdec016d8ba904f3",
+      "bytes": 27098,
+      "src": "/images/menu/taharka-ice-cream.webp",
+      "width": 398,
+      "height": 480,
+      "alt": "An ice cream scoop in a wafer cone at Coffee Talk Cafe"
+    },
+    {
+      "item_id": "milkshake",
+      "confidence": "likely",
+      "source_sha256": "e12e0b47fd2c246b61bb1a7a9026d5090dfbd5b82844b3886f0391630ec36fa0",
+      "source_urls": [
+        "https://www.yelp.com/biz_photos/coffee-talk-cafe-towson?start=0&select=RmfyuwNFhmBNmgMidIGRtQ"
+      ],
+      "identification_evidence": "Official Taharka collage places an actual thick ice-cream drink beside a milkshake mixer; whipped cream, cherry and mix-ins support Milkshake. Flavor and current garnish not established. Use only the middle photo, not the promotional cone panel.",
+      "crop_bounds": [
+        350,
+        0,
+        695,
+        445
+      ],
+      "output_sha256": "bc3b32baac9d7bfbf6529e82a0f8a862220cdb4079eff4605356a6b3dc86a780",
+      "bytes": 11526,
+      "src": "/images/menu/milkshake.webp",
+      "width": 345,
+      "height": 445,
+      "alt": "A cafe milkshake with whipped cream and a cherry"
+    }
+  ]
+}

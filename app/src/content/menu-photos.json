@@ -1,0 +1,218 @@
+{
+  "oriole-bird": {
+    "src": "/images/menu/oriole-bird.webp",
+    "width": 480,
+    "height": 384,
+    "alt": "Oriole Bird chicken sandwich on a white plate"
+  },
+  "emily": {
+    "src": "/images/menu/emily.webp",
+    "width": 480,
+    "height": 312,
+    "alt": "A grilled chicken sandwich with cheddar, red onion, tomato and greens on ciabatta"
+  },
+  "turkey-reuben": {
+    "src": "/images/menu/turkey-reuben.webp",
+    "width": 437,
+    "height": 480,
+    "alt": "A toasted poultry sandwich with melted cheese and sauerkraut"
+  },
+  "turkey-powerhouse": {
+    "src": "/images/menu/turkey-powerhouse.webp",
+    "width": 480,
+    "height": 275,
+    "alt": "Turkey Powerhouse sandwich with vegetables on multigrain"
+  },
+  "raven": {
+    "src": "/images/menu/raven.webp",
+    "width": 480,
+    "height": 384,
+    "alt": "Raven roast beef sandwich"
+  },
+  "reuben": {
+    "src": "/images/menu/reuben.webp",
+    "width": 480,
+    "height": 324,
+    "alt": "Reuben with corned beef, melted Swiss and sauerkraut on toasted bread"
+  },
+  "mr-beef": {
+    "src": "/images/menu/mr-beef.webp",
+    "width": 424,
+    "height": 480,
+    "alt": "A roast beef sandwich with cheddar, tomato and mustard"
+  },
+  "classic-club": {
+    "src": "/images/menu/classic-club.webp",
+    "width": 480,
+    "height": 360,
+    "alt": "A three-layer turkey, bacon, lettuce and tomato club sandwich"
+  },
+  "italian-cold-cut": {
+    "src": "/images/menu/italian-cold-cut.webp",
+    "width": 480,
+    "height": 393,
+    "alt": "Italian Cold Cut sandwich"
+  },
+  "st-pete": {
+    "src": "/images/menu/st-pete.webp",
+    "width": 480,
+    "height": 360,
+    "alt": "A tuna salad sandwich with cucumber and lettuce on multigrain bread"
+  },
+  "house-made-egg-salad": {
+    "src": "/images/menu/house-made-egg-salad.webp",
+    "width": 480,
+    "height": 204,
+    "alt": "Egg salad sandwich"
+  },
+  "greek-wrap": {
+    "src": "/images/menu/greek-wrap.webp",
+    "width": 480,
+    "height": 360,
+    "alt": "Greek Wrap"
+  },
+  "chicken-salad-wrap": {
+    "src": "/images/menu/chicken-salad-wrap.webp",
+    "width": 480,
+    "height": 301,
+    "alt": "House-made chicken salad wrap halves with lettuce and tomato"
+  },
+  "tuna-salad-wrap": {
+    "src": "/images/menu/tuna-salad-wrap.webp",
+    "width": 472,
+    "height": 480,
+    "alt": "Spicy tuna salad wrap halves with lettuce and tomato"
+  },
+  "powerhouse": {
+    "src": "/images/menu/powerhouse.webp",
+    "width": 480,
+    "height": 384,
+    "alt": "Powerhouse vegetable and cheese sandwich"
+  },
+  "hummus-wrap": {
+    "src": "/images/menu/hummus-wrap.webp",
+    "width": 480,
+    "height": 384,
+    "alt": "Hummus Wrap halves with vegetables on a plate"
+  },
+  "chicken-quesadilla": {
+    "src": "/images/menu/chicken-quesadilla.webp",
+    "width": 480,
+    "height": 360,
+    "alt": "Chicken quesadilla with grilled chicken, cheese, tomato and onion"
+  },
+  "grilled-cheese": {
+    "src": "/images/menu/grilled-cheese.webp",
+    "width": 480,
+    "height": 360,
+    "alt": "Grilled cheese sandwich with potato chips"
+  },
+  "chef-salad": {
+    "src": "/images/menu/chef-salad.webp",
+    "width": 480,
+    "height": 384,
+    "alt": "Chef Salad with ham, turkey, cheese and vegetables"
+  },
+  "salad-boat": {
+    "src": "/images/menu/salad-boat.webp",
+    "width": 480,
+    "height": 405,
+    "alt": "A scoop of tuna salad with lettuce, tomatoes and other vegetables"
+  },
+  "texas-chili": {
+    "src": "/images/menu/texas-chili.webp",
+    "width": 470,
+    "height": 470,
+    "alt": "A cup of chili photographed at Coffee Talk Cafe"
+  },
+  "lunchbox-special": {
+    "src": "/images/menu/lunchbox-special.webp",
+    "width": 480,
+    "height": 270,
+    "alt": "A photographed sandwich lunch with chips, potato salad, dessert and a drink"
+  },
+  "create-your-own-sandwich": {
+    "src": "/images/menu/create-your-own-sandwich.webp",
+    "width": 480,
+    "height": 360,
+    "alt": "A custom grilled chicken sandwich with bacon, lettuce, tomato and cheese"
+  },
+  "sausage-egg-and-cheese": {
+    "src": "/images/menu/sausage-egg-and-cheese.webp",
+    "width": 360,
+    "height": 480,
+    "alt": "Sausage, egg and cheese in a photographed breakfast wrap variation with tomato"
+  },
+  "bacon-egg-and-cheese": {
+    "src": "/images/menu/bacon-egg-and-cheese.webp",
+    "width": 480,
+    "height": 320,
+    "alt": "Bacon egg and cheese croissant sandwich"
+  },
+  "cappuccino": {
+    "src": "/images/menu/cappuccino.webp",
+    "width": 384,
+    "height": 375,
+    "alt": "Medium cappuccino with milk foam and date artwork"
+  },
+  "cafe-latte": {
+    "src": "/images/menu/cafe-latte.webp",
+    "width": 480,
+    "height": 461,
+    "alt": "A hot espresso and milk drink with heart-shaped latte art"
+  },
+  "cafe-mocha": {
+    "src": "/images/menu/cafe-mocha.webp",
+    "width": 480,
+    "height": 462,
+    "alt": "A hot foamed coffee drink with chocolate artwork at Coffee Talk Cafe"
+  },
+  "chai-latte": {
+    "src": "/images/menu/chai-latte.webp",
+    "width": 315,
+    "height": 335,
+    "alt": "A hot milk chai with spice artwork at Coffee Talk Cafe"
+  },
+  "house-cold-brew-coffee": {
+    "src": "/images/menu/house-cold-brew-coffee.webp",
+    "width": 373,
+    "height": 480,
+    "alt": "A flavored cold-brew variation with cream and ice at Coffee Talk Cafe"
+  },
+  "iced-cafe-latte": {
+    "src": "/images/menu/iced-cafe-latte.webp",
+    "width": 476,
+    "height": 480,
+    "alt": "Flavored iced cafe latte with Beat the Heat chocolate artwork"
+  },
+  "iced-cafe-mocha": {
+    "src": "/images/menu/iced-cafe-mocha.webp",
+    "width": 360,
+    "height": 480,
+    "alt": "Iced white chocolate mocha in a clear cup"
+  },
+  "ice-blended-caramel-mocha": {
+    "src": "/images/menu/ice-blended-caramel-mocha.webp",
+    "width": 352,
+    "height": 480,
+    "alt": "Blended espresso, dark chocolate and caramel drink with milk, whipped topping and coffee beans"
+  },
+  "kombucha": {
+    "src": "/images/menu/kombucha.webp",
+    "width": 449,
+    "height": 480,
+    "alt": "Wild Bay kombucha bottles at the Coffee Talk counter"
+  },
+  "taharka-ice-cream": {
+    "src": "/images/menu/taharka-ice-cream.webp",
+    "width": 398,
+    "height": 480,
+    "alt": "An ice cream scoop in a wafer cone at Coffee Talk Cafe"
+  },
+  "milkshake": {
+    "src": "/images/menu/milkshake.webp",
+    "width": 345,
+    "height": 445,
+    "alt": "A cafe milkshake with whipped cream and a cherry"
+  }
+}
