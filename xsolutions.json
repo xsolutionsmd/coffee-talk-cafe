@@ -198,10 +198,10 @@
     },
     "delivery": {
       "status": "done",
-      "recorded": "2026-10-18T17:54:06.342443+00:00",
+      "recorded": "2026-10-18T20:06:47.716726+00:00",
       "workflow_version": 2,
       "owner": "sol-high",
-      "task_id": null,
+      "task_id": "node:delegated-task:command%3Amcp%3A09190282-60e7-48f0-b4fd-a8b4133ed030%3Adelegate-task%3Acoffeetalk-final-handoff-r1",
       "prerequisites": {
         "assets": "2026-10-18T15:05:48.101475+00:00"
       },
@@ -209,12 +209,23 @@
       "quota_evidence": null,
       "quota_exhausted": false,
       "evidence": [
-        "Current18-image package delivered once to Abdul in C0C0J6RB8KT; persisted reload/readback plus exact downloaded bytes/SHA256 match, fileF0C9ZR93JQK. private/runs/media-delivery-r1.json; https://sidehustle2026.slack.com/archives/C0C0J6RB8KT/p1792345651011539"
-      ]
+        "Expanded46-image library delivered and verified after reload; exact downloaded package size and SHA256 match.36 supported menu associations:19 confirmed,17 likely;2 uncertain,58 missing. Delivery/provenance receipts retained privately."
+      ],
+      "details": {
+        "images": 46,
+        "menu_entries": 96,
+        "matched": 36,
+        "confirmed": 19,
+        "likely": 17,
+        "uncertain": 2,
+        "missing": 58,
+        "verified_after_reload": true,
+        "download_hash_verified": true
+      }
     },
     "final-handoff": {
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T17:54:06.360096+00:00"
+  "updated": "2026-10-18T20:06:47.736406+00:00"
 }
