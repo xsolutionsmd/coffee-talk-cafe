@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T16:26:19.381602+00:00):
+Pipeline status (generated 2026-10-18T17:45:02.249582+00:00):
 
 - **identity**: done
 - **research**: done
@@ -15,18 +15,18 @@ Pipeline status (generated 2026-10-18T16:26:19.381602+00:00):
 - **build**: done
 - **first-publish**: done
 - **first-live-slack**: done
-- **infra**: todo: record verified infra evidence
-- **review**: todo: blocked by infra
-- **fixes**: todo: blocked by review
-- **recheck**: todo: blocked by fixes
+- **infra**: done
+- **review**: done
+- **fixes**: done
+- **recheck**: todo: current task requires a valid receipt; overall stage acceptance requires its completed checkpoint
 - **deploy**: todo: blocked by recheck
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by infra, review, fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by recheck, deploy, delivery
 <!-- xs-status:end -->
 
 ## Current checkpoint ? October 18, 2026
 
-Coffee Talk Cafe's first production release is live at https://coffeetalk.xsolutionsmd.com, product revision `ebb9e0856f570ea902cbe8e5d237a46c816f2713`. HTTPS, health/version, all four direct page URLs, canonical/share metadata and authentic image delivery passed. This is the first-live milestone; GitHub/preview infrastructure, independent live review and final delivery remain pending. Derek and Abdul hostnames are reserved but not yet published.
+Coffee Talk Cafe's first production release is live at https://coffeetalk.xsolutionsmd.com, product revision `ebb9e0856f570ea902cbe8e5d237a46c816f2713`. HTTPS, health/version, all four direct page URLs, canonical/share metadata and authentic image delivery passed. The first-live milestone is retained as history. Infrastructure is now accepted at `70920bfcd90c24ffb2aebdf404e174cc8caed8e5` on all three environments: production, https://d-coffeetalk.xsolutionsmd.com and https://a-coffeetalk.xsolutionsmd.com. The public repository and merged PR1 are verified; application/runtime source is unchanged from the first release. Independent live review is accepted; focused recheck and final delivery remain pending.
 
 Research/assets, landing scope, reference/content sufficiency, reconstruction, backend, refinement and build readiness are accepted. The actual four-page site contains 96 unpriced menu entries and six authentic photos. Grubhub is the verified ordering destination. The announced October 19 price increase has unknown new amounts; dated prices are intentionally omitted. Hours are weekdays 7am?4pm, weekends closed. Full factual sources and uncertainties are in the linked KB.
 
@@ -42,9 +42,11 @@ Final readiness at `ebb9e08` passed app.py check and exact ARM64 production Comp
 
 ## Ownership and next action
 
-Coordinator alone owns pipeline acceptance and state/HANDOFF until explicit final Sol transfer. Prior research, reconstruction and refinement specialists are terminal without pending runs and their paths are released. The next specialist is Sol 6.1 xhigh, Standard speed, for repository/branches/Actions/protections and independent previews, preserving the first-live service. No parallel implementation or redesign is authorized.
+Coordinator alone owns pipeline acceptance and state/HANDOFF until explicit final Sol transfer. Prior research, reconstruction and refinement specialists are terminal without pending runs and their paths are released. Sol 6.1 xhigh infrastructure is accepted and its terminal writer released. The first independent Sol High review returned no product defects:94 passed cases and one native reduced-motion validation gap. Astra tested that gap through supported Chrome media emulation with actual drawer/category UI and no source overrides; no code changes were needed. The focused Sol High recheck independently resolved native reduced motion but found F-R101: a full Drinks fragment load/reload can hide its heading above the viewport. That review task is terminal and its paths relinquished without a passed recheck. Astra has a local correction that schedules heading alignment after the first native fragment-layout pass; native Chrome local built-output checks and all96 menu checks pass. Live correction and independent recheck remain pending. No parallel implementation or redesign is authorized.
 
-First-live Slack and the maintained URL-directory entry are saved and independently verified after reload. The private receipt records both persisted results; reuse it without duplicate announcements. Directory edits are serialized across companies; never save a stale copy. Infrastructure evidence returns to the coordinator before independent Sol High live review, Astra fixes/republication, fresh Sol recheck and Sol High final verification/media/Slack handoff.
+First-live Slack and the maintained URL-directory entry are saved and independently verified after reload. The private receipt records both persisted results; reuse it without duplicate announcements. Directory edits are serialized across companies; never save a stale copy. Infrastructure receipts confirm six successful final push workflows, strict main protections, three branch-restricted environments and independent public packages/stacks/timers. The accepted review covered all4 pages at desktop/mobile/narrow widths, actual drawer/category/history/motion/Grubhub actions and three-environment product parity. Focused independent recheck precedes Sol High final verification/media handoff. The published directory target is the current formatted URL-only message; historical snippet receipts remain history. New preview URLs await a serialized directory write grant; no competing writer is authorized.
+
+Every next Oracle-triggering push/merge/activation requires a separate dispatcher release slot; none is currently granted. Local preparation, read-only review and media delivery may continue. No release is in flight.
 
 ## Boundaries and cleanup
 

@@ -73,7 +73,9 @@ function restoreCategory() {
   });
 }
 addEventListener('hashchange', restoreCategory);
-addEventListener('pageshow', restoreCategory);
+// A full document load may finish native fragment restoration after pageshow.
+// Let its first layout/scroll pass complete before aligning the visible heading.
+addEventListener('pageshow', () => requestAnimationFrame(restoreCategory));
 for (const link of [...categoryLinks, ...lunchLinks]) {
   link.addEventListener('click', event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
