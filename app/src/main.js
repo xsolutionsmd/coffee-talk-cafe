@@ -41,23 +41,49 @@ if (drawer && trigger && close) {
 }
 // Native hash links work without JavaScript; enhance focus and selected state.
 const categoryLinks = [...document.querySelectorAll('.category-nav a')];
+const lunchLinks = [...document.querySelectorAll('.lunch-nav a')];
+function hashTarget() {
+  try { return document.getElementById(decodeURIComponent(location.hash.slice(1))); }
+  catch { return null; }
+}
+const targetHeading = target => target?.matches('h2,h3') ? target : target?.querySelector('h2,h3');
 function markCategory() {
+  const target = hashTarget();
+  const group = target?.closest('.menu-panel');
   for (const link of categoryLinks) {
+    if (group && link.hash === `#${group.id}`) link.setAttribute('aria-current', 'location');
+    else link.removeAttribute('aria-current');
+  }
+  for (const link of lunchLinks) {
     if (link.hash === location.hash) link.setAttribute('aria-current', 'location');
     else link.removeAttribute('aria-current');
   }
 }
 markCategory();
-addEventListener('hashchange', markCategory);
-for (const link of document.querySelectorAll('.category-nav a, .lunch-nav a')) {
+function restoreCategory() {
+  markCategory();
+  const target = hashTarget();
+  if (!target?.closest('.menu-panel')) return;
+  const heading = targetHeading(target) || target;
+  // After native history restoration, keep the chosen section in view.
+  requestAnimationFrame(() => {
+    heading.setAttribute('tabindex', '-1');
+    heading.focus({ preventScroll: true });
+    heading.scrollIntoView({ behavior: 'instant', block: 'start' });
+  });
+}
+addEventListener('hashchange', restoreCategory);
+addEventListener('pageshow', restoreCategory);
+for (const link of [...categoryLinks, ...lunchLinks]) {
   link.addEventListener('click', event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const target = document.getElementById(decodeURIComponent(link.hash.slice(1)));
     if (!target) return;
     event.preventDefault();
-    history.pushState(null, '', link.href);
+    if (location.hash !== link.hash) history.pushState(null, '', link.href);
     markCategory();
-    target.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
-    const heading = target.matches('h2,h3') ? target : target.querySelector('h2,h3');
+    const heading = targetHeading(target);
+    (heading || target).scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
     if (heading) {
       heading.setAttribute('tabindex', '-1');
       requestAnimationFrame(() => heading.focus({ preventScroll: true }));

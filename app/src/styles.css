@@ -2,7 +2,7 @@
   --navy:#00244c; --cream:#fdfbf5; --panel:#f7f5ee; --tan:#89704d; --rule:#b8b6a9;
   --serif:Georgia,'Times New Roman',serif; --sans:Arial,Helvetica,sans-serif;
   color:var(--navy); background:var(--cream); font-family:var(--sans); font-synthesis:none;
-  scroll-behavior:smooth; scroll-padding-top:100px; color-scheme:light;
+  scroll-behavior:smooth; scroll-padding-top:88px; color-scheme:light;
 }
 * { box-sizing:border-box }
 body { margin:0 }
@@ -62,6 +62,7 @@ dialog nav [aria-current=page] { text-decoration:underline; text-decoration-colo
 .intro p { max-width:650px; margin-inline:auto }
 .text-link { display:inline-flex; align-items:center; gap:14px; font-size:13px; letter-spacing:.04em; text-decoration:none; border-bottom:1px solid var(--tan); padding-bottom:5px }
 .intro .text-link { margin-top:28px }
+.intro .actions { justify-content:center; margin-top:28px }
 .photo-pair { display:grid; grid-template-columns:1fr 1fr; gap:20px }
 .photo-panel { position:relative; height:560px; overflow:hidden; background:var(--navy) }
 .photo-panel>img { height:100%; object-fit:cover; transition:transform .5s }
@@ -108,26 +109,27 @@ dialog nav [aria-current=page] { text-decoration:underline; text-decoration-colo
 .category-nav a:hover,.category-nav a[aria-current=location] { background:var(--navy); color:var(--cream) }
 .menu-note { font-size:13px; margin-bottom:45px }
 .menu-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:20px; align-items:start }
-.menu-panel { background:var(--panel); padding:60px 50px; min-width:0; scroll-margin-top:100px }
+.menu-panel { background:var(--panel); padding:60px 50px; min-width:0 }
 .breakfast-menu { grid-area:1/1 }
 .lunch-menu { grid-area:auto }
 .menu-side>.menu-panel+.menu-panel { margin-top:20px }
 .drinks-menu { grid-area:2/1 }
 .ice-menu { grid-area:3/1 }
-.group-title { text-align:center; font-size:32px; text-transform:uppercase; margin-bottom:15px; scroll-margin-top:100px }
+.group-title { text-align:center; font-size:32px; text-transform:uppercase; margin-bottom:15px; scroll-margin-top:12px }
 .group-note { text-align:center; font-size:14px; margin-bottom:30px }
 .menu-category+.menu-category { margin-top:48px }
-.ruled-title { display:flex; align-items:center; gap:18px; justify-content:center; text-align:center; font-size:24px; line-height:1.2; text-transform:uppercase; margin:32px 0 30px; scroll-margin-top:100px }
+.ruled-title { display:flex; align-items:center; gap:18px; justify-content:center; text-align:center; font-size:24px; line-height:1.2; text-transform:uppercase; margin:32px 0 30px; scroll-margin-top:12px }
 .ruled-title:before,.ruled-title:after { content:''; height:1px; background:var(--navy); flex:1; min-width:12px }
 .breakfast-menu .ruled-title,.ice-menu .ruled-title { display:none }
 .menu-list { list-style:none; margin:0; padding:0 }
 .menu-list li+li { margin-top:24px }
-.menu-list li { scroll-margin-top:110px }
+.menu-list li { scroll-margin-top:12px }
 .menu-list :is(h3,h4) { font-family:var(--sans); font-size:14px; line-height:1.45; font-weight:700; letter-spacing:.07em; text-transform:uppercase }
 .menu-list p { font-size:13px; line-height:1.55; margin-top:7px }
 .menu-list .variants { font-size:12px; color:#40566a }
 .lunch-nav { display:flex; flex-wrap:wrap; justify-content:center; gap:7px 13px; margin:22px 0 38px }
 .lunch-nav a { font-size:11px; line-height:1.5; text-decoration-color:var(--tan); padding:4px 0 }
+.lunch-nav a[aria-current=location] { font-weight:700; text-decoration-thickness:2px }
 .menu-end { display:flex; flex-wrap:wrap; gap:30px; align-items:center; justify-content:center; padding-top:55px }
 .visit-page { padding-block:65px 90px }
 .visit-page>h1 { margin-bottom:60px }
