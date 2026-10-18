@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T17:45:02.249582+00:00):
+Pipeline status (generated 2026-10-18T17:55:49.882647+00:00):
 
 - **identity**: done
 - **research**: done
@@ -20,8 +20,8 @@ Pipeline status (generated 2026-10-18T17:45:02.249582+00:00):
 - **fixes**: done
 - **recheck**: todo: current task requires a valid receipt; overall stage acceptance requires its completed checkpoint
 - **deploy**: todo: blocked by recheck
-- **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by recheck, deploy, delivery
+- **delivery**: done
+- **final-handoff**: todo: blocked by recheck, deploy
 <!-- xs-status:end -->
 
 ## Current checkpoint ? October 18, 2026
@@ -46,7 +46,9 @@ Coordinator alone owns pipeline acceptance and state/HANDOFF until explicit fina
 
 First-live Slack and the maintained URL-directory entry are saved and independently verified after reload. The private receipt records both persisted results; reuse it without duplicate announcements. Directory edits are serialized across companies; never save a stale copy. Infrastructure receipts confirm six successful final push workflows, strict main protections, three branch-restricted environments and independent public packages/stacks/timers. The accepted review covered all4 pages at desktop/mobile/narrow widths, actual drawer/category/history/motion/Grubhub actions and three-environment product parity. Focused independent recheck precedes Sol High final verification/media handoff. The published directory target is the current formatted URL-only message; historical snippet receipts remain history. New preview URLs await a serialized directory write grant; no competing writer is authorized.
 
-Every next Oracle-triggering push/merge/activation requires a separate dispatcher release slot; none is currently granted. Local preparation, read-only review and media delivery may continue. No release is in flight.
+Derek resumed the build on October18. The abandoned advisory release-grant wait is superseded; protected checks, existing technical locks, actual health and single-writer ownership still apply. A bounded current check at19:11UTC found all three health/version endpoints healthy at70920bf. The local20ea664 correction is ready for controlled publication and live recheck. The18-image media library was delivered and its downloaded bytes verified. Final handoff will reuse that receipt unless expanded media changes the package.
+
+Derek also requests maximum supported menu-photo coverage on his preview: reinspect all existing assets and uncertain candidates, fill material gaps from incomplete source coverage, and allow confident visual/contextual inferences without exact item labels. Record confidence and reasoning honestly. Preserve the accepted production/Abdul text-only menu and use the scoped Derek photo route after normal completion.
 
 ## Boundaries and cleanup
 
