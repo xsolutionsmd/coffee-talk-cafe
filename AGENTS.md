@@ -136,3 +136,9 @@ no decorative numbering, and the already confirmed business-asset authorization.
 ## Branch contract
 
 This repository has no shared dev branch. Long-lived branches: `main` (production) and `derek-dev`, `abdul-dev` (personal preview environments). Wherever this guide says dev, use your own preview branch; promote with a reviewed PR from it into main, then merge main back into each preview branch.
+
+## Normal handoff and next scoped change
+
+The accepted normal product is a56823b; b198efe has its identical Git tree. The final independent recheck passed 30 cases with no findings, retaining the original 94 passed cases. Follow kb/HANDOFF.md for current public context. Record-only release SHAs may differ only with actual app/runtime/config parity evidence.
+
+Keep the normal 96-entry menu text-only on main, derek-dev and abdul-dev through normal final acceptance. The expanded 46-image private library supports 36 associations (19 confirmed, 17 likely), with 2 uncertain and 58 missing. It does not describe the current rendered menu. The parent owns the later Derek-only photo variation after coordinator acceptance; never propagate that variation to main/Abdul. No new research/design/review cycle is authorized by these records.
