@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T15:48:43.632746+00:00):
+Pipeline status (generated 2026-10-18T15:53:32.986604+00:00):
 
 - **identity**: done
 - **research**: done
@@ -10,8 +10,8 @@ Pipeline status (generated 2026-10-18T15:48:43.632746+00:00):
 - **template**: done
 - **content**: done
 - **reconstruct**: done
-- **backend**: todo: record coordinator-accepted backend evidence
-- **refine**: todo: blocked by backend
+- **backend**: done
+- **refine**: todo: record coordinator-accepted refine evidence
 - **build**: todo: blocked by refine
 - **first-publish**: todo: blocked by build
 - **first-live-slack**: todo: blocked by first-publish
@@ -21,7 +21,7 @@ Pipeline status (generated 2026-10-18T15:48:43.632746+00:00):
 - **recheck**: todo: blocked by fixes
 - **deploy**: todo: blocked by recheck
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by backend, refine, build, first-publish, first-live-slack, infra, review, fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by refine, build, first-publish, first-live-slack, infra, review, fixes, recheck, deploy, delivery
 <!-- xs-status:end -->
 
 ## Current state
@@ -57,3 +57,6 @@ October 18: explicit REA fallback correction applied to managed AGENTS, local re
 
 ## Reconstruction accepted
 October18: full evidence inspected and accepted after renewing the content fingerprint for the explicit REA wording correction; menu/facts/selected reference remain unchanged. Source 80be75c, all four pages/96 entries/six actual images. Sol child stopped and released. Astra backend runtime checks next, then Claude refinement.
+
+## Backend accepted; refinement next
+October18: backend/integration accepted at 78a1970 (tested product e7ac361). ARM64 nginx passes21 HTTP cases and read-only/non-root checks; development image passes5 probes. Found/fixed extensionless directory redirects leaking internal port8080. Grubhub live identity/preorder/pickup verified again. Exact test containers and three image tags removed; builder/cache retained for immediate first release, localhost5188 for refinement. Claude Opus5.5 High receives existing populated source, accepted blueprint and checked API contract; only frontend/refinement evidence ownership transfers. No server release or Slack delivery yet.
