@@ -1,0 +1,174 @@
+{
+  "schema": 2,
+  "toolkit": "xs-website 2.0 (2026-10-17)",
+  "name": "Coffee Talk Cafe",
+  "slug": "coffee-talk-cafe",
+  "created": "2026-10-18T14:26:48.754111+00:00",
+  "repository": "xsolutionsmd/coffee-talk-cafe",
+  "visibility": "public",
+  "url_key": "coffeetalk",
+  "build_type": "landing",
+  "features": [
+    "menu",
+    "call",
+    "directions"
+  ],
+  "endpoint": "full",
+  "identity": {
+    "status": "confirmed",
+    "official_name": "Coffee Talk Cafe",
+    "address": "22 W Pennsylvania Ave, Suite 101, Towson, MD 21204",
+    "public_phone": "410-296-1937",
+    "public_email": null,
+    "website": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Coffee%20Talk%20Cafe%2022%20W%20Pennsylvania%20Ave%20Towson%20MD",
+    "social": {},
+    "evidence": [
+      {
+        "observed": "2026-10-18T14:27:47.651106+00:00",
+        "note": "The Towerlight March 14 2022 identifies Coffee Talk Cafe at 22 West Pennsylvania Ave and owner Nara Khakurel; https://thetowerlight.com/5-local-businesses-that-the-towson-community-needs-to-know-about/"
+      },
+      {
+        "observed": "2026-10-18T14:27:47.651126+00:00",
+        "note": "Restaurantguru current listing matches Coffee Talk Cafe, 22 W Pennsylvania Ave, Towson and +1 410-296-1937; https://restaurantguru.com/Coffee-Talk-Cafe-Towson"
+      },
+      {
+        "observed": "2026-10-18T14:27:47.651130+00:00",
+        "note": "Claimed Tripadvisor listing independently matches name, street address and +1 410-296-1937; https://www.tripadvisor.com/Restaurant_Review-g60848-d10357944-Reviews-Coffee_Talk_Cafe-Towson_Maryland.html"
+      }
+    ]
+  },
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "hostname": "coffeetalk.xsolutionsmd.com",
+      "slug": "coffee-talk-cafe"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "hostname": "d-coffeetalk.xsolutionsmd.com",
+      "slug": "coffee-talk-cafe-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "hostname": "a-coffeetalk.xsolutionsmd.com",
+      "slug": "coffee-talk-cafe-abdul-dev"
+    }
+  ],
+  "stages": {
+    "identity": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "done",
+      "recorded": "2026-10-18T15:05:47.657742+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3A9578da73-6c97-417b-9d1f-b3891c78f02b%3Adelegate-task%3Acoffeetalk-research-assets-r1",
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Coordinator inspected seven factual KB files, full menu source, 96 entries, verified CTA/hours and explicit new-price uncertainty; sources S1-S17."
+      ]
+    },
+    "assets": {
+      "status": "done",
+      "recorded": "2026-10-18T15:05:48.101475+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "18 authentic files, zero hash problems, all nine source families checked, 96-entry photo index (11 matched/2 uncertain/83 gaps), coordinator inspected full library-review sheet and accepted bounded usable shortlist."
+      ]
+    },
+    "spec": {
+      "status": "done",
+      "recorded": "2026-10-18T15:05:48.304400+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "research": "2026-10-18T15:05:47.657742+00:00",
+        "assets": "2026-10-18T15:05:48.101475+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Landing scope selected before reference search: separate Home/Menu/About/Visit, full unpriced menu and category navigation, verified external Grubhub ordering, phone/directions, no custom operational platform."
+      ]
+    },
+    "template": {
+      "status": "done",
+      "recorded": "2026-10-18T15:10:57.388605+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "spec": "2026-10-18T15:05:48.304400+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Astra inspected Provisions Cafe Home/Menu/About/Contact desktop/mobile, menu selector, drawer and external-order chooser; captures and choice rationale in private reference-selection-r1 and kb/design-brief. Text-only menu preserved."
+      ]
+    },
+    "content": {
+      "status": "pending"
+    },
+    "reconstruct": {
+      "status": "pending"
+    },
+    "backend": {
+      "status": "pending"
+    },
+    "refine": {
+      "status": "pending"
+    },
+    "build": {
+      "status": "pending"
+    },
+    "first-publish": {
+      "status": "pending"
+    },
+    "first-live-slack": {
+      "status": "pending"
+    },
+    "infra": {
+      "status": "pending"
+    },
+    "review": {
+      "status": "pending"
+    },
+    "fixes": {
+      "status": "pending"
+    },
+    "recheck": {
+      "status": "pending"
+    },
+    "deploy": {
+      "status": "pending"
+    },
+    "delivery": {
+      "status": "pending"
+    },
+    "final-handoff": {
+      "status": "pending"
+    }
+  },
+  "updated": "2026-10-18T15:10:57.394277+00:00"
+}
